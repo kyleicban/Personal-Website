@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import ArtPort from "./components/body/ArtPortfolio";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Project from "./components/body/Project";
+import WorkExp from "./components/body/WorkExperience";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //====EVENTUALLY WANT IT SO I PASS IN AN OBJECT====
+    //====TO EACH SECTION AND IT FILLS IN EVERYTHING====
+    <div>
+      <Header />
+      <WorkExp company="Enfinite Technologies" />
+      <WorkExp company="PeachPay, Inc" />
+      <WorkExp company="Hours" />
+      <Project name="Sport Store" />
+      <Project name="GPA Calculator" />
+      <ArtPort />
+      <Footer />
     </div>
   );
 }
