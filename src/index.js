@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 
+const categories = ["Work_Experience", "Projects", "Art_Portfolio"];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App categories={categories} />
   </React.StrictMode>,
   document.getElementById("root")
 );
