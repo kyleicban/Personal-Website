@@ -3,11 +3,17 @@ import styled from "styled-components";
 
 const FooterWrapper = styled.div`
   background: rgb(28, 56, 94);
-  padding-bottom: 100px;
+  box-shadow: 0 50vh 0 50vh rgb(28, 56, 94);
+  color: white;
+  font-weight: lighter;
+  padding-top: 80px;
+  position: relative;
+  text-align: center;
+  top: -150px;
 `;
 
 export default class Footer extends Component {
   render() {
-    return <FooterWrapper>This is a Footer</FooterWrapper>;
+    return <FooterWrapper>lol this is a footer</FooterWrapper>;
   }
 }

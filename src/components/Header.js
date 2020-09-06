@@ -2,8 +2,16 @@ import React, { Component } from "react";
 import { HashRouter, Link } from "react-router-dom";
 import styled from "styled-components";
 
+import {
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+  AiOutlineMail,
+  AiOutlineInstagram,
+} from "react-icons/ai";
+
 import mainpic from "../assets/me1.jpg";
 import hoverpic from "../assets/me2.jpg";
+import resume from "../assets/kyleIcbanResume.pdf";
 
 const HeaderWrapper = styled.div`
   background: rgb(28, 56, 94);
@@ -33,9 +41,42 @@ const BottomWrapper = styled.div`
 `;
 
 const TextWrapper = styled.div`
-  font-size: 36px;
   margin: 0;
+  padding-left: 50px;
   width: 50%;
+`;
+
+const TitleWrapper = styled.div`
+  font-size: 70px;
+  font-weight: bold;
+  height: 50%;
+  padding-top: 10px;
+`;
+
+const CaptionWrapper = styled.div`
+  font-size: 24px;
+  height: 40%;
+`;
+
+const LinkWrapper = styled.div`
+  height: 10%;
+`;
+
+const SocialLink = styled.a`
+  color: white;
+  margin-right: 20px;
+
+  & > * {
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+  }
+  &:hover {
+    & > * {
+      color: white;
+      transform: scale(1.3);
+    }
+  }
 `;
 
 const ProfileWrapper = styled.div`
@@ -57,7 +98,7 @@ const ProfPic = styled.div`
   position: absolute;
   top: 8%;
   transition: 0.5s;
-  right: 0%;
+  right: 50px;
   width: 250px;
 
   -moz-box-shadow: 0px 5px 10px 10px #ccc;
@@ -84,10 +125,44 @@ export default class Header extends Component {
                   <BtnTextWrapper>{cat.replace(/_/g, " ")}</BtnTextWrapper>
                 </Link>
               ))}
+            <a
+              target="_blank"
+              href={resume}
+              className="btn btn-light m-1"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </HashRouter>
         </NavWrapper>
         <BottomWrapper>
-          <TextWrapper>Stuff about Kyle Icban</TextWrapper>
+          <TextWrapper>
+            <TitleWrapper>Kyle Icban</TitleWrapper>
+            <CaptionWrapper>
+              WELCOME TO MY SUPER AWESOME TO EPIC WEBSITE
+              <br /> hope you like it :)
+            </CaptionWrapper>
+            <LinkWrapper>
+              <SocialLink
+                target="_blank"
+                href="https://www.linkedin.com/in/kyle-icban/"
+              >
+                <AiOutlineLinkedin />
+              </SocialLink>
+              <SocialLink target="_blank" href="https://github.com/kyleicban">
+                <AiOutlineGithub />
+              </SocialLink>
+              <SocialLink
+                target="_blank"
+                href="https://www.instagram.com/kyleicban/"
+              >
+                <AiOutlineInstagram />
+              </SocialLink>
+              <SocialLink target="_blank" href="mailto:kyleicban@yahoo.com">
+                <AiOutlineMail />
+              </SocialLink>
+            </LinkWrapper>
+          </TextWrapper>
           <ProfileWrapper>
             <ProfPic></ProfPic>
           </ProfileWrapper>
