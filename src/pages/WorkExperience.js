@@ -2,22 +2,13 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
+import WorkExpMaker from "../components/WorkExpMaker";
 
 const WorkExpWrapper = styled.div`
   color: rgb(15, 8, 43);
   margin: auto;
-  padding-bottom: 40px;
   padding: 40px;
-  width: 600px;
-`;
-
-const TestWork = styled.a`
-  background: red;
-  color: rgb(15, 8, 43);
-  margin: auto;
-  margin-bottom: 40px;
-  position: absolute;
-  width: 100%;
+  width: 700px;
 `;
 
 export default class WorkExp extends Component {
@@ -28,33 +19,18 @@ export default class WorkExp extends Component {
       <PageWrapper>
         <TitleWrapper>WORK EXPERIENCE</TitleWrapper>
         <WorkExpWrapper>
-          <div className="card m-1 p-1">
-            <TestWork
-              target="_blank"
-              href="https://www.google.com/webhp?authuser=1"
-              className="btn btn-light"
-            >
-              Google
-            </TestWork>
-          </div>
-          <div className="card m-1 p-1">
-            <TestWork
-              target="_blank"
-              href="https://www.google.com/webhp?authuser=1"
-              className="btn btn-light"
-            >
-              Google
-            </TestWork>
-          </div>
-          <div className="card m-1 p-1">
-            <TestWork
-              target="_blank"
-              href="https://www.google.com/webhp?authuser=1"
-              className="btn btn-light"
-            >
-              Google
-            </TestWork>
-          </div>
+          <WorkExpMaker
+            url="https://peachpay.app/"
+            name="PeachPay, Inc"
+            location="Des Moines, IA"
+            duration="August 2020 to Present"
+          />
+          <WorkExpMaker
+            url="https://www.enfinitetech.com/"
+            name="Enfinite Technologies"
+            location="Houston, TX"
+            duration="August 2020 to Present"
+          />
         </WorkExpWrapper>
       </PageWrapper>
     );

@@ -10,7 +10,7 @@ const OutlineWrapper = styled.div`
   margin: auto;
   padding: 40px;
   padding-bottom: 60px;
-  width: 600px;
+  width: 700px;
 `;
 
 const BodyWrapper = styled.p`

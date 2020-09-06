@@ -139,7 +139,7 @@ export default class Header extends Component {
           <TextWrapper>
             <TitleWrapper>Kyle Icban</TitleWrapper>
             <CaptionWrapper>
-              WELCOME TO MY SUPER AWESOME TO EPIC WEBSITE
+              WELCOME TO MY SUPER AWESOME EPIC WEBSITE
               <br /> hope you like it :)
             </CaptionWrapper>
             <LinkWrapper>

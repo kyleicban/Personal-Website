@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-const WorkWrapper = styled.a`
+const ProjectWrapper = styled.a`
   border: 0.5px solid rgba(15, 8, 43, 0.5);
   border-radius: 10px;
   color: rgb(15, 8, 43);
@@ -11,7 +11,7 @@ const WorkWrapper = styled.a`
   width: 100%;
 `;
 
-const CompanyLogo = styled.div`
+const ProjectLogo = styled.div`
   background: red;
   border: 0.5px solid rgba(15, 8, 43, 0.5);
   border-radius: 50%;
@@ -27,24 +27,17 @@ const TextBox = styled.div`
   width: 430px;
 `;
 
-export default class WorkExpMaker extends Component {
+export default class ProjectMaker extends Component {
   render() {
     return (
-      <WorkWrapper
+      <ProjectWrapper
         target="_blank"
         href={this.props.url}
         className="btn btn-light"
       >
-        <CompanyLogo />
+        <ProjectLogo />
         <TextBox>
-          <h3 className="text-left">
-            {this.props.name}
-            <h6 className="float-right">
-              {this.props.location}
-              <br />
-              {this.props.duration}
-            </h6>
-          </h3>
+          <h3 className="text-left">{this.props.name}</h3>
           <h5 className="m-3 text-left">
             <ul>
               <li>Blah</li>
@@ -53,7 +46,7 @@ export default class WorkExpMaker extends Component {
             </ul>
           </h5>
         </TextBox>
-      </WorkWrapper>
+      </ProjectWrapper>
     );
   }
 }
