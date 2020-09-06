@@ -12,19 +12,35 @@ const WorkWrapper = styled.a`
 `;
 
 const CompanyLogo = styled.div`
-  background: red;
   border: 0.5px solid rgba(15, 8, 43, 0.5);
   border-radius: 50%;
   height: 150px;
   margin: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 150px;
 `;
 
 const TextBox = styled.div`
-  background: yellow;
-  height: 150px;
-  margin: 10px;
+  height: 90%;
   width: 430px;
+`;
+
+const TitleWrapper = styled.p`
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+`;
+
+const LogWrapper = styled.p`
+  float: right;
+  font-size: 10px;
+  font-weight: lighter;
+`;
+
+const DescWrapper = styled.li`
+  font-size: 12px;
+  margin-left: 0;
 `;
 
 export default class WorkExpMaker extends Component {
@@ -37,21 +53,20 @@ export default class WorkExpMaker extends Component {
       >
         <CompanyLogo />
         <TextBox>
-          <h3 className="text-left">
+          <TitleWrapper>
             {this.props.name}
-            <h6 className="float-right">
+            <LogWrapper>
               {this.props.location}
               <br />
               {this.props.duration}
-            </h6>
-          </h3>
-          <h5 className="m-3 text-left">
-            <ul>
-              <li>Blah</li>
-              <li>Blah</li>
-              <li>Blah</li>
-            </ul>
-          </h5>
+            </LogWrapper>
+            <h6>{this.props.position}</h6>
+          </TitleWrapper>
+          <ul className="m-0 text-left">
+            {this.props.description.map((point) => (
+              <DescWrapper>{point}</DescWrapper>
+            ))}
+          </ul>
         </TextBox>
       </WorkWrapper>
     );

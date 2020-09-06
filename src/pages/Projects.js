@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
 import ProjectMaker from "../components/ProjectMaker";
+import { ProjectList } from "../data/data";
 
 const ProjectWrapper = styled.div`
   color: rgb(15, 8, 43);
@@ -17,10 +18,15 @@ export default class Project extends Component {
       <PageWrapper>
         <TitleWrapper>PROJECTS</TitleWrapper>
         <ProjectWrapper>
-          <ProjectMaker
-            url="https://www.enfinitetech.com/"
-            name="Sport Store"
-          />
+          {ProjectList.map((proj) => {
+            return (
+              <ProjectMaker
+                name={proj.name}
+                url={proj.url}
+                description={proj.description}
+              />
+            );
+          })}
         </ProjectWrapper>
       </PageWrapper>
     );

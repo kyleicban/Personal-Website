@@ -11,20 +11,30 @@ const ProjectWrapper = styled.a`
   width: 100%;
 `;
 
-const ProjectLogo = styled.div`
-  background: red;
+const CompanyLogo = styled.div`
   border: 0.5px solid rgba(15, 8, 43, 0.5);
   border-radius: 50%;
   height: 150px;
   margin: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 150px;
 `;
 
 const TextBox = styled.div`
-  background: yellow;
-  height: 150px;
-  margin: 10px;
+  height: 90%;
   width: 430px;
+`;
+
+const TitleWrapper = styled.p`
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+`;
+
+const DescWrapper = styled.li`
+  font-size: 12px;
+  margin-left: 0;
 `;
 
 export default class ProjectMaker extends Component {
@@ -35,16 +45,14 @@ export default class ProjectMaker extends Component {
         href={this.props.url}
         className="btn btn-light"
       >
-        <ProjectLogo />
+        <CompanyLogo />
         <TextBox>
-          <h3 className="text-left">{this.props.name}</h3>
-          <h5 className="m-3 text-left">
-            <ul>
-              <li>Blah</li>
-              <li>Blah</li>
-              <li>Blah</li>
-            </ul>
-          </h5>
+          <TitleWrapper>{this.props.name}</TitleWrapper>
+          <ul className="m-0 text-left">
+            {this.props.description.map((point) => (
+              <DescWrapper>{point}</DescWrapper>
+            ))}
+          </ul>
         </TextBox>
       </ProjectWrapper>
     );

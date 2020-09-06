@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
 import WorkExpMaker from "../components/WorkExpMaker";
+import { WorkExpList } from "../data/data";
 
 const WorkExpWrapper = styled.div`
   color: rgb(15, 8, 43);
@@ -19,18 +20,18 @@ export default class WorkExp extends Component {
       <PageWrapper>
         <TitleWrapper>WORK EXPERIENCE</TitleWrapper>
         <WorkExpWrapper>
-          <WorkExpMaker
-            url="https://peachpay.app/"
-            name="PeachPay, Inc"
-            location="Des Moines, IA"
-            duration="August 2020 to Present"
-          />
-          <WorkExpMaker
-            url="https://www.enfinitetech.com/"
-            name="Enfinite Technologies"
-            location="Houston, TX"
-            duration="August 2020 to Present"
-          />
+          {WorkExpList.map((workExp) => {
+            return (
+              <WorkExpMaker
+                name={workExp.name}
+                position={workExp.position}
+                location={workExp.location}
+                duration={workExp.duration}
+                url={workExp.url}
+                description={workExp.description}
+              />
+            );
+          })}
         </WorkExpWrapper>
       </PageWrapper>
     );
