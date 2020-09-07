@@ -10,6 +10,10 @@ const ProjectWrapper = styled.div`
   margin: auto;
   padding: 40px;
   width: 700px;
+
+  @media only screen and (max-width: 950px) {
+    width: 90%;
+  }
 `;
 
 export default class Project extends Component {

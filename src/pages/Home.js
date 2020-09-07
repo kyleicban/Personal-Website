@@ -11,6 +11,10 @@ const OutlineWrapper = styled.div`
   padding: 40px;
   padding-bottom: 60px;
   width: 700px;
+
+  @media only screen and (max-width: 950px) {
+    width: 90%;
+  }
 `;
 
 const BodyWrapper = styled.p`
@@ -21,8 +25,8 @@ export default class Home extends Component {
   render() {
     return (
       <PageWrapper className="card">
+        <TitleWrapper>ABOUT ME</TitleWrapper>
         <OutlineWrapper>
-          <TitleWrapper>ABOUT ME</TitleWrapper>
           <BodyWrapper>
             "My name is Kyle Icban and I'm a third year Mathematics of
             Computation major at UCLA. I'm an aspiring Software Engineer looking

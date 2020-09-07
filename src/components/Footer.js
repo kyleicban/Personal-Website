@@ -14,6 +14,6 @@ const FooterWrapper = styled.div`
 
 export default class Footer extends Component {
   render() {
-    return <FooterWrapper>lol this is a footer</FooterWrapper>;
+    return <FooterWrapper>this is a footer</FooterWrapper>;
   }
 }

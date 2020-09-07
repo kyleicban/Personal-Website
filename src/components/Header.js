@@ -27,6 +27,10 @@ const NavWrapper = styled.div`
   margin: 0;
   text-align: right;
   width: 100%;
+
+  @media only screen and (max-width: 810px) {
+    text-align: center;
+  }
 `;
 
 const BtnTextWrapper = styled.p`
@@ -38,12 +42,27 @@ const BtnTextWrapper = styled.p`
 const BottomWrapper = styled.div`
   display: flex;
   margin: 0;
+
+  @media only screen and (max-width: 810px) {
+    flex-direction: column;
+  }
 `;
 
 const TextWrapper = styled.div`
+  float: left;
+  height: 80%;
   margin: 0;
   padding-left: 50px;
   width: 50%;
+
+  @media only screen and (max-width: 810px) {
+    height: 70%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
 `;
 
 const TitleWrapper = styled.div`
@@ -56,6 +75,8 @@ const TitleWrapper = styled.div`
 const CaptionWrapper = styled.div`
   font-size: 24px;
   height: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 
 const LinkWrapper = styled.div`
@@ -79,13 +100,6 @@ const SocialLink = styled.a`
   }
 `;
 
-const ProfileWrapper = styled.div`
-  color: black;
-  height: 250px;
-  margin: 0;
-  width: 50%;
-`;
-
 const ProfPic = styled.div`
   background-image: url(${mainpic});
   background-position: center;
@@ -107,6 +121,13 @@ const ProfPic = styled.div`
 
   &:hover {
     background-image: url(${hoverpic});
+  }
+
+  @media only screen and (max-width: 810px) {
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    right: auto;
   }
 `;
 
@@ -136,6 +157,7 @@ export default class Header extends Component {
           </HashRouter>
         </NavWrapper>
         <BottomWrapper>
+          <ProfPic></ProfPic>
           <TextWrapper>
             <TitleWrapper>Kyle Icban</TitleWrapper>
             <CaptionWrapper>
@@ -163,9 +185,6 @@ export default class Header extends Component {
               </SocialLink>
             </LinkWrapper>
           </TextWrapper>
-          <ProfileWrapper>
-            <ProfPic></ProfPic>
-          </ProfileWrapper>
         </BottomWrapper>
       </HeaderWrapper>
     );

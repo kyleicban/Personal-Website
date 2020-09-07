@@ -20,6 +20,9 @@ const WorkWrapper = styled.a`
     -webkit-box-shadow: 0px 0px 10px 3px #ccc;
     box-shadow: 0px 0px 10px 3px rgb(110, 110, 110);
   }
+  @media only screen and (max-width: 810px) {
+    flex-direction: column;
+  }
 `;
 
 const CompanyLogo = styled.div`
@@ -33,11 +36,19 @@ const CompanyLogo = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   width: 150px;
+
+  @media only screen and (max-width: 950px) {
+    margin: auto;
+  }
 `;
 
 const TextBox = styled.div`
   height: 90%;
   width: 430px;
+
+  @media only screen and (max-width: 950px) {
+    width: 90%;
+  }
 `;
 
 const TitleWrapper = styled.p`
@@ -50,6 +61,7 @@ const LogWrapper = styled.p`
   float: right;
   font-size: 10px;
   font-weight: lighter;
+  margin-left: 5px;
 `;
 
 const DescWrapper = styled.li`

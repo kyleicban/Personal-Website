@@ -14,6 +14,10 @@ const ArtPortWrapper = styled.div`
   padding: 40px;
   padding-bottom: 60px;
   width: 850px;
+
+  @media only screen and (max-width: 1050px) {
+    width: 90%;
+  }
 `;
 
 const Image = styled.img`
@@ -29,6 +33,14 @@ const Image = styled.img`
     -moz-box-shadow: 0px 0px 10px 3px #ccc;
     -webkit-box-shadow: 0px 0px 10px 3px #ccc;
     box-shadow: 0px 0px 10px 3px rgb(110, 110, 110);
+  }
+
+  @media only screen and (max-width: 900px) {
+    height: 175px;
+  }
+  @media only screen and (max-width: 700px) {
+    height: auto;
+    width: 90%;
   }
 `;
 
