@@ -1,3 +1,20 @@
+import BullyingAndHorror from "../assets/artPortImages/dbBullyingAndHorror.jpg";
+import Dolphins from "../assets/artPortImages/dbCartoonDolphins.jpg";
+import Trending from "../assets/artPortImages/dbCartoonTrending.jpg";
+import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientation.jpg";
+import FoxTheater from "../assets/artPortImages/dbCentFoxTheater.jpg";
+import JanssDome from "../assets/artPortImages/dbCentJanssDome.jpg";
+import UnConnon from "../assets/artPortImages/dbUnConnon.jpg";
+import WhyDoesOilSplash from "../assets/artPortImages/dbWhyDoesOilSplash.jpg";
+import dino from "../assets/artPortImages/dino.jpg";
+import SponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
+import linkedinBackground from "../assets/artPortImages/linkedinBackground.jpg";
+import tbCover from "../assets/artPortImages/tbCover.png";
+import tbFigureEightOne from "../assets/artPortImages/tbFigureEightOne.png";
+import tbFigureEightTwo from "../assets/artPortImages/tbFigureEightTwo.png";
+import tbFigureSevenOne from "../assets/artPortImages/tbFigureSevenOne.png";
+import threeYears from "../assets/artPortImages/threeYears.jpg";
+
 export const WorkExpList = [
   {
     name: "PeachPay, Inc",
@@ -76,4 +93,23 @@ export const ProjectList = [
       "Ongoing project to eventually include a four year class planner and final grade calculator",
     ],
   },
+];
+
+export const ArtPortImages = [
+  SponsorshipCover,
+  tbCover,
+  tbFigureEightOne,
+  tbFigureEightTwo,
+  tbFigureSevenOne,
+  FoxTheater,
+  JanssDome,
+  UnConnon,
+  BullyingAndHorror,
+  WhyDoesOilSplash,
+  Dolphins,
+  VirtualOrientation,
+  Trending,
+  linkedinBackground,
+  threeYears,
+  dino,
 ];
