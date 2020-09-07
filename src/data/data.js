@@ -18,10 +18,13 @@ import threeYears from "../assets/artPortImages/threeYears.jpg";
 import calculator from "../assets/logos/calculator.png";
 import dailyBruin from "../assets/logos/dailyBruin.png";
 import enfinite from "../assets/logos/enfinite.jpg";
+import epitome from "../assets/logos/epitome.jpg";
 import hours from "../assets/logos/hours.jpg";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
-import sportsstore from "../assets/logos/sportsstore.png";
+import quarantime from "../assets/logos/quarantime.png";
+import sportsstore from "../assets/logos/sportsstore.jpg";
+import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
   {
@@ -68,7 +71,7 @@ export const WorkExpList = [
     position: "Graphic Designer",
     location: "Cambridge, MA",
     duration: "April 2020 - Present",
-    url: "https://www.ee.ucla.edu/achuta-kadambi/",
+    url: "https://mitpress.mit.edu/",
     description: [
       "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
       "Communicated with the research group to confirm that the scientific information is accurate",
@@ -80,11 +83,37 @@ export const WorkExpList = [
     logo: dailyBruin,
     position: "Cartoons Beat Manager",
     location: "UCLA, Los Angeles, CA",
-    duration: "May 2019 - May 2020",
+    duration: "October 2018 - May 2020",
     url: "https://dailybruin.com/author/kyle-icban",
     description: [
       "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
       "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
+    ],
+  },
+  {
+    name: "UCLA Mathematics",
+    logo: uclaMath,
+    position: "Math Grader",
+    location: "UCLA, Los Angeles, CA",
+    duration: "October 2019 - July 2020",
+    url: "https://ww3.math.ucla.edu/",
+    description: [
+      "Exercised impressive time management skills by grading 210 assignments from students each week",
+      "Developed great relationships with world-renowned professors by maintaining close communication in the mathematics department",
+      "Demonstrated a strong background in lower-division mathematics courses to accurately evaluate students performance in the course",
+    ],
+  },
+  {
+    name: "Epitome Academy",
+    logo: epitome,
+    position: "Math and English Teacher",
+    location: "Diamond Bar, CA",
+    duration: "June 2019 - September 2019",
+    url: "https://www.epitomeacademy.com/",
+    description: [
+      "Strengthened leadership skills by running a class of 12 elementary school students",
+      "Demonstrated effective communication and patience with special needs children",
+      "Improved children's letter grades in subjects by an average of 10%",
     ],
   },
 ];
@@ -106,6 +135,15 @@ export const ProjectList = [
     description: [
       "Developed a responsive calculator with warning and error indicators",
       "Ongoing project to eventually include a four year class planner and final grade calculator",
+    ],
+  },
+  {
+    name: "Quarantime",
+    logo: quarantime,
+    url: "https://www.youtube.com/watch?v=lsIdg7U_kO0",
+    description: [
+      "Designed an mobile app for LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
+      "Incorporated user reseach, wireframing and A/B Testing in the development process",
     ],
   },
 ];

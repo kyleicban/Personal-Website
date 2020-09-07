@@ -62,6 +62,7 @@ const LogWrapper = styled.p`
   font-size: 10px;
   font-weight: lighter;
   margin-left: 5px;
+  text-align: right;
 `;
 
 const DescWrapper = styled.li`
