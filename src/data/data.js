@@ -15,9 +15,18 @@ import tbFigureEightTwo from "../assets/artPortImages/tbFigureEightTwo.png";
 import tbFigureSevenOne from "../assets/artPortImages/tbFigureSevenOne.png";
 import threeYears from "../assets/artPortImages/threeYears.jpg";
 
+import calculator from "../assets/logos/calculator.png";
+import dailyBruin from "../assets/logos/dailyBruin.png";
+import enfinite from "../assets/logos/enfinite.jpg";
+import hours from "../assets/logos/hours.jpg";
+import mitPress from "../assets/logos/mitPress.png";
+import peachpay from "../assets/logos/peachpay.png";
+import sportsstore from "../assets/logos/sportsstore.png";
+
 export const WorkExpList = [
   {
     name: "PeachPay, Inc",
+    logo: peachpay,
     position: "Software Engineer & Design Intern",
     location: "Des Moines, IA",
     duration: "August 2020 - Present",
@@ -30,6 +39,7 @@ export const WorkExpList = [
   },
   {
     name: "Enfinite Technologies",
+    logo: enfinite,
     position: "Software Engineer Intern",
     location: "Houston, TX",
     duration: "August 2020 - Present",
@@ -40,7 +50,8 @@ export const WorkExpList = [
     ],
   },
   {
-    name: "Hours",
+    name: "HOURS",
+    logo: hours,
     position: "UI UX Intern",
     location: "New York, NY",
     duration: "June 2020 - August 2020",
@@ -53,6 +64,7 @@ export const WorkExpList = [
   },
   {
     name: "MIT Press",
+    logo: mitPress,
     position: "Graphic Designer",
     location: "Cambridge, MA",
     duration: "April 2020 - Present",
@@ -65,6 +77,7 @@ export const WorkExpList = [
   },
   {
     name: "The Daily Bruin",
+    logo: dailyBruin,
     position: "Cartoons Beat Manager",
     location: "UCLA, Los Angeles, CA",
     duration: "May 2019 - May 2020",
@@ -79,6 +92,7 @@ export const WorkExpList = [
 export const ProjectList = [
   {
     name: "Sport Store Application",
+    logo: sportsstore,
     url: "https://github.com/kyleicban/Sport-Store-Application",
     description: [
       "Developed a data store mimicking a company store website and checkout process",
@@ -87,6 +101,7 @@ export const ProjectList = [
   },
   {
     name: "GPA Calculator",
+    logo: calculator,
     url: "https://github.com/kyleicban/GPA-Calculator",
     description: [
       "Developed a responsive calculator with warning and error indicators",

@@ -22,6 +22,7 @@ export default class Project extends Component {
             return (
               <ProjectMaker
                 name={proj.name}
+                logo={proj.logo}
                 url={proj.url}
                 description={proj.description}
               />

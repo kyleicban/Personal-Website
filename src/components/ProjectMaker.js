@@ -7,11 +7,25 @@ const ProjectWrapper = styled.a`
   color: rgb(15, 8, 43);
   display: flex;
   margin-bottom: 40px;
+  padding: 10px;
   position: relative;
+  transition: 0.5s;
   width: 100%;
+
+  &:hover {
+    color: rgb(15, 8, 43);
+    text-decoration: none;
+
+    -moz-box-shadow: 0px 0px 10px 3px #ccc;
+    -webkit-box-shadow: 0px 0px 10px 3px #ccc;
+    box-shadow: 0px 0px 10px 3px rgb(110, 110, 110);
+  }
 `;
 
-const CompanyLogo = styled.div`
+const ProjectLogo = styled.div`
+  background: url(${(props) => props.logo}) no-repeat;
+  background-position: center;
+  background-size: auto 100px;
   border: 0.5px solid rgba(15, 8, 43, 0.5);
   border-radius: 50%;
   height: 150px;
@@ -40,12 +54,8 @@ const DescWrapper = styled.li`
 export default class ProjectMaker extends Component {
   render() {
     return (
-      <ProjectWrapper
-        target="_blank"
-        href={this.props.url}
-        className="btn btn-light"
-      >
-        <CompanyLogo />
+      <ProjectWrapper target="_blank" href={this.props.url}>
+        <ProjectLogo logo={this.props.logo} />
         <TextBox>
           <TitleWrapper>{this.props.name}</TitleWrapper>
           <ul className="m-0 text-left">
