@@ -18,6 +18,10 @@ const ArtPortWrapper = styled.div`
   @media only screen and (max-width: 1050px) {
     width: 90%;
   }
+  @media only screen and (max-width: 480px) {
+    padding: 8px;
+    width: 98%;
+  }
 `;
 
 const Image = styled.img`
@@ -40,7 +44,11 @@ const Image = styled.img`
   }
   @media only screen and (max-width: 700px) {
     height: auto;
+    margin-bottom: 8px;
     width: 90%;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 98%;
   }
 `;
 

@@ -14,6 +14,9 @@ const WorkExpWrapper = styled.div`
   @media only screen and (max-width: 950px) {
     width: 90%;
   }
+  @media only screen and (max-width: 480px) {
+    width: 98%;
+  }
 `;
 
 export default class WorkExp extends Component {

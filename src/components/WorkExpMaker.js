@@ -40,6 +40,10 @@ const CompanyLogo = styled.div`
   @media only screen and (max-width: 950px) {
     margin: auto;
   }
+  @media only screen and (max-width: 480px) {
+    height: 90px;
+    width: 90px;
+  }
 `;
 
 const TextBox = styled.div`
@@ -48,6 +52,9 @@ const TextBox = styled.div`
 
   @media only screen and (max-width: 950px) {
     width: 90%;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 98%;
   }
 `;
 
