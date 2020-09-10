@@ -21,7 +21,7 @@ const ProjectWrapper = styled.a`
     box-shadow: 0px 0px 10px 3px rgb(110, 110, 110);
   }
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 810px) {
     flex-direction: column;
   }
 `;
@@ -38,7 +38,7 @@ const ProjectLogo = styled.div`
   margin-bottom: auto;
   width: 150px;
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 810px) {
     margin: auto;
   }
   @media only screen and (max-width: 480px) {
@@ -52,7 +52,8 @@ const TextBox = styled.div`
   height: 90%;
   width: 430px;
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 810px) {
+    margin: auto;
     width: 90%;
   }
   @media only screen and (max-width: 480px) {

@@ -37,10 +37,11 @@ const CompanyLogo = styled.div`
   margin-bottom: auto;
   width: 150px;
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 810px) {
     margin: auto;
   }
   @media only screen and (max-width: 480px) {
+    background-size: auto 50px;
     height: 90px;
     width: 90px;
   }
@@ -50,7 +51,8 @@ const TextBox = styled.div`
   height: 90%;
   width: 430px;
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 810px) {
+    margin: auto;
     width: 90%;
   }
   @media only screen and (max-width: 480px) {

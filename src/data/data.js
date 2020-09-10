@@ -79,18 +79,6 @@ export const WorkExpList = [
     ],
   },
   {
-    name: "The Daily Bruin",
-    logo: dailyBruin,
-    position: "Cartoons Beat Manager",
-    location: "UCLA, Los Angeles, CA",
-    duration: "October 2018 - May 2020",
-    url: "https://dailybruin.com/author/kyle-icban",
-    description: [
-      "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
-      "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
-    ],
-  },
-  {
     name: "UCLA Mathematics",
     logo: uclaMath,
     position: "Math Grader",
@@ -101,6 +89,18 @@ export const WorkExpList = [
       "Exercised impressive time management skills by grading 210 assignments from students each week",
       "Developed great relationships with world-renowned professors by maintaining close communication in the mathematics department",
       "Demonstrated a strong background in lower-division mathematics courses to accurately evaluate students performance in the course",
+    ],
+  },
+  {
+    name: "The Daily Bruin",
+    logo: dailyBruin,
+    position: "Cartoons Beat Manager",
+    location: "UCLA, Los Angeles, CA",
+    duration: "October 2018 - May 2020",
+    url: "https://dailybruin.com/author/kyle-icban",
+    description: [
+      "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
+      "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
     ],
   },
   {

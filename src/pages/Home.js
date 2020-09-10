@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
@@ -27,7 +27,7 @@ const BodyWrapper = styled.p`
 export default class Home extends Component {
   render() {
     return (
-      <PageWrapper className="card">
+      <PageWrapper>
         <TitleWrapper>ABOUT ME</TitleWrapper>
         <OutlineWrapper>
           <BodyWrapper>
