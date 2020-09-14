@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
 import WorkExpMaker from "../components/WorkExpMaker";
@@ -25,22 +26,38 @@ export default class WorkExp extends Component {
     //====AND IT FILLS IN EVERYTHING====
     return (
       <PageWrapper>
-        <TitleWrapper>WORK EXPERIENCE</TitleWrapper>
-        <WorkExpWrapper>
-          {WorkExpList.map((workExp) => {
-            return (
-              <WorkExpMaker
-                name={workExp.name}
-                logo={workExp.logo}
-                position={workExp.position}
-                location={workExp.location}
-                duration={workExp.duration}
-                url={workExp.url}
-                description={workExp.description}
-              />
-            );
-          })}
-        </WorkExpWrapper>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 1,
+            },
+          }}
+          exit={{
+            opacity: 0,
+            transition: {
+              duration: 1,
+            },
+          }}
+        >
+          <TitleWrapper>WORK EXPERIENCE</TitleWrapper>
+          <WorkExpWrapper>
+            {WorkExpList.map((workExp) => {
+              return (
+                <WorkExpMaker
+                  name={workExp.name}
+                  logo={workExp.logo}
+                  position={workExp.position}
+                  location={workExp.location}
+                  duration={workExp.duration}
+                  url={workExp.url}
+                  description={workExp.description}
+                />
+              );
+            })}
+          </WorkExpWrapper>
+        </motion.div>
       </PageWrapper>
     );
   }

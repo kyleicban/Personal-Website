@@ -14,6 +14,10 @@ const FooterWrapper = styled.div`
 
 export default class Footer extends Component {
   render() {
-    return <FooterWrapper>this is a footer</FooterWrapper>;
+    return (
+      <FooterWrapper>
+        you found me :o - thanks for scrolling all the way :)
+      </FooterWrapper>
+    );
   }
 }

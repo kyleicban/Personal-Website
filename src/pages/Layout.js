@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Route, HashRouter } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import ArtPort from "./ArtPortfolio";
 import Footer from "../components/Footer";
@@ -13,14 +14,16 @@ const categories = ["Work_Experience", "Projects", "Art_Portfolio"];
 export default class Layout extends Component {
   render() {
     return (
-      //====EVENTUALLY WANT IT SO I PASS IN AN OBJECT====
-      //====TO EACH SECTION AND IT FILLS IN EVERYTHING====
       <HashRouter>
         <Header baseUrl="" categories={categories} />
-        <Route path="/" exact component={Home} />
-        <Route path="/work_experience" component={WorkExp} />
-        <Route path="/projects" component={Project} />
-        <Route path="/art_portfolio" component={ArtPort} />
+        <AnimatePresence>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/work_experience" component={WorkExp} />
+            <Route path="/projects" component={Project} />
+            <Route path="/art_portfolio" component={ArtPort} />
+          </Switch>
+        </AnimatePresence>
         <Footer />
       </HashRouter>
     );

@@ -19,14 +19,20 @@ const HeaderWrapper = styled.div`
   font-weight: lighter;
   margin: 0;
   padding: 5px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   width: 100%;
 `;
 
 const NavWrapper = styled.div`
-  margin: 0;
+  background: rgba(28, 56, 94, 0.75);
+  left: 0;
+  padding: 2px;
+  position: fixed;
+  right: 0;
   text-align: right;
+  top: 0;
   width: 100%;
+  z-index: 99;
 
   @media only screen and (max-width: 810px) {
     text-align: center;
@@ -40,11 +46,24 @@ const BtnTextWrapper = styled.p`
 `;
 
 const BottomWrapper = styled.div`
+  animation-name: onload;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
   display: flex;
   margin: 0;
+  margin-top: 5px;
 
   @media only screen and (max-width: 810px) {
     flex-direction: column;
+    margin-top: 120px;
+  }
+  @keyframes onload {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 `;
 
@@ -107,13 +126,13 @@ const ProfPic = styled.div`
   background-size: cover;
   border: 5px solid white;
   border-radius: 50%;
-  height: 250px;
+  height: 200px;
   margin: 25px;
   position: absolute;
   top: 8%;
   transition: 0.5s;
   right: 50px;
-  width: 250px;
+  width: 200px;
 
   -moz-box-shadow: 0px 5px 10px 10px #ccc;
   -webkit-box-shadow: 0px 5px 10px 10px #ccc;
@@ -134,7 +153,7 @@ const ProfPic = styled.div`
 export default class Header extends Component {
   render() {
     return (
-      <HeaderWrapper>
+      <>
         <NavWrapper>
           <HashRouter>
             <Link to={this.props.baseUrl} className="btn btn-light m-1">
@@ -156,37 +175,40 @@ export default class Header extends Component {
             </a>
           </HashRouter>
         </NavWrapper>
-        <BottomWrapper>
-          <ProfPic></ProfPic>
-          <TextWrapper>
-            <TitleWrapper>Kyle Icban</TitleWrapper>
-            <CaptionWrapper>
-              WELCOME TO MY SUPER AWESOME EPIC WEBSITE
-              <br /> hope you like it :)
-            </CaptionWrapper>
-            <LinkWrapper>
-              <SocialLink
-                target="_blank"
-                href="https://www.linkedin.com/in/kyle-icban/"
-              >
-                <AiOutlineLinkedin />
-              </SocialLink>
-              <SocialLink target="_blank" href="https://github.com/kyleicban">
-                <AiOutlineGithub />
-              </SocialLink>
-              <SocialLink
-                target="_blank"
-                href="https://www.instagram.com/kyleicban/"
-              >
-                <AiOutlineInstagram />
-              </SocialLink>
-              <SocialLink target="_blank" href="mailto:kyleicban@yahoo.com">
-                <AiOutlineMail />
-              </SocialLink>
-            </LinkWrapper>
-          </TextWrapper>
-        </BottomWrapper>
-      </HeaderWrapper>
+        <HeaderWrapper>
+          <BottomWrapper>
+            <ProfPic />
+            <TextWrapper>
+              <TitleWrapper>KYLE ICBAN</TitleWrapper>
+              <CaptionWrapper>
+                developer, designer, cartoonist, rock climber
+                <br />
+                hope you like my website! (updates ongoing...)
+              </CaptionWrapper>
+              <LinkWrapper>
+                <SocialLink
+                  target="_blank"
+                  href="https://www.linkedin.com/in/kyle-icban/"
+                >
+                  <AiOutlineLinkedin />
+                </SocialLink>
+                <SocialLink target="_blank" href="https://github.com/kyleicban">
+                  <AiOutlineGithub />
+                </SocialLink>
+                <SocialLink
+                  target="_blank"
+                  href="https://www.instagram.com/kyleicban/"
+                >
+                  <AiOutlineInstagram />
+                </SocialLink>
+                <SocialLink target="_blank" href="mailto:kyleicban@yahoo.com">
+                  <AiOutlineMail />
+                </SocialLink>
+              </LinkWrapper>
+            </TextWrapper>
+          </BottomWrapper>
+        </HeaderWrapper>
+      </>
     );
   }
 }

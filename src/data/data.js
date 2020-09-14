@@ -17,6 +17,7 @@ import threeYears from "../assets/artPortImages/threeYears.jpg";
 
 import calculator from "../assets/logos/calculator.png";
 import dailyBruin from "../assets/logos/dailyBruin.png";
+import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
 import epitome from "../assets/logos/epitome.jpg";
 import hours from "../assets/logos/hours.jpg";
@@ -142,8 +143,17 @@ export const ProjectList = [
     logo: quarantime,
     url: "https://www.youtube.com/watch?v=lsIdg7U_kO0",
     description: [
-      "Designed an mobile app for LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
+      "Designed an mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
       "Incorporated user reseach, wireframing and A/B Testing in the development process",
+    ],
+  },
+  {
+    name: "Dungeon Delver",
+    logo: dungeonDelver,
+    url: "https://github.com/kyleicban/Dungeon-Delver",
+    description: [
+      "Created an adventure game ran on the console (.exe available for download on GitHub)",
+      "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
     ],
   },
 ];

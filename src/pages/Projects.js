@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
 import ProjectMaker from "../components/ProjectMaker";
@@ -23,19 +24,35 @@ export default class Project extends Component {
   render() {
     return (
       <PageWrapper>
-        <TitleWrapper>PROJECTS</TitleWrapper>
-        <ProjectWrapper>
-          {ProjectList.map((proj) => {
-            return (
-              <ProjectMaker
-                name={proj.name}
-                logo={proj.logo}
-                url={proj.url}
-                description={proj.description}
-              />
-            );
-          })}
-        </ProjectWrapper>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 1,
+            },
+          }}
+          exit={{
+            opacity: 0,
+            transition: {
+              duration: 1,
+            },
+          }}
+        >
+          <TitleWrapper>PROJECTS</TitleWrapper>
+          <ProjectWrapper>
+            {ProjectList.map((proj) => {
+              return (
+                <ProjectMaker
+                  name={proj.name}
+                  logo={proj.logo}
+                  url={proj.url}
+                  description={proj.description}
+                />
+              );
+            })}
+          </ProjectWrapper>
+        </motion.div>
       </PageWrapper>
     );
   }
