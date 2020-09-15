@@ -8,7 +8,6 @@ import UnConnon from "../assets/artPortImages/dbUnConnon.jpg";
 import WhyDoesOilSplash from "../assets/artPortImages/dbWhyDoesOilSplash.jpg";
 import dino from "../assets/artPortImages/dino.jpg";
 import SponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
-import linkedinBackground from "../assets/artPortImages/linkedinBackground.jpg";
 import tbCover from "../assets/artPortImages/tbCover.png";
 import tbFigureEightOne from "../assets/artPortImages/tbFigureEightOne.png";
 import tbFigureEightTwo from "../assets/artPortImages/tbFigureEightTwo.png";
@@ -56,7 +55,7 @@ export const WorkExpList = [
   {
     name: "HOURS",
     logo: hours,
-    position: "UI UX Intern",
+    position: "UI/UX Intern",
     location: "New York, NY",
     duration: "June 2020 - August 2020",
     url: "https://angel.co/company/jazelle",
@@ -141,9 +140,9 @@ export const ProjectList = [
   {
     name: "Quarantime",
     logo: quarantime,
-    url: "https://www.youtube.com/watch?v=lsIdg7U_kO0",
+    url: "https://devpost.com/software/quarantime-j1d7lp",
     description: [
-      "Designed an mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
+      "Designed a mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
       "Incorporated user reseach, wireframing and A/B Testing in the development process",
     ],
   },
@@ -172,7 +171,6 @@ export const ArtPortImages = [
   Dolphins,
   VirtualOrientation,
   Trending,
-  linkedinBackground,
   threeYears,
   dino,
 ];
