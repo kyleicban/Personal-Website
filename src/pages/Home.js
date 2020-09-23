@@ -51,10 +51,10 @@ export default class Home extends Component {
               Computation major at UCLA. I'm an aspiring Software Engineer
               looking for any opportunity to help me further develop this
               totally original passion I have. I also have 2 years of
-              professional design and illustration experience. As a result, I'm
-              particularly interested in Web Dev and Game Dev. Here is the part
+              professional design and illustration experience. I'm particularly
+              interested in Front End Web Dev and Game Dev. Here is the part
               where I keep talking about myself, so if you don't really care
-              then feel free to check out some other links, I don't mind :)
+              then feel free to check out some other links, I don't mind!
               <br />
               <br />
               But if you're still here then here is more or less what I tell
@@ -72,10 +72,14 @@ export default class Home extends Component {
               <br />
               <br />
               So here I am, jumping into a different subject doing as much as I
-              can to learn as much as I can. I spent this past summer teaching
-              myself web development, building my skillset to one day become a
-              somewhat decent programming. Stay tuned to receive further updates
-              on where I'm at :D
+              can to learn as much as I can. In just one summer, I managed to
+              teach myself the fundamentals of Javscript and React. In just one
+              summer, I completed three internships in various positions in
+              design, frontend, and backend development. In just one summer, I
+              surprised even myself about how much I love coding. My goal: to
+              continue to build my skillset to one day become a somewhat decent
+              programming. Stay tuned to receive further updates on where I'm at
+              :D
               <br />
               <br />
               Thanks for making it this far and for checking out my website!

@@ -47,8 +47,8 @@ export default class ArtPort extends Component {
         >
           <TitleWrapper>ART PORTFOLIO</TitleWrapper>
           <ArtPortWrapper>
-            {ArtPortImages.map((art) => {
-              return <ArtMaker art={art} />;
+            {ArtPortImages.map((illo) => {
+              return <ArtMaker art={illo.art} caption={illo.caption} />;
             })}
           </ArtPortWrapper>
         </motion.div>

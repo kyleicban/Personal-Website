@@ -31,7 +31,7 @@ const LittleImage = styled.img`
   }
 `;
 
-const BigPicWrapper = styled.div`
+const BigPicBackground = styled.div`
   align-items: center;
   animation-name: zoomIn;
   animation-duration: 0.25s;
@@ -60,29 +60,39 @@ const BigPicWrapper = styled.div`
   }
 `;
 
-const BigPicImage = styled.img`
-  background: url(${(props) => props.src}) no-repeat;
-  background-size: contain;
+const BigPicWrapper = styled.div`
+  align-items: center;
   display: block;
-  height: 66%;
-  margin: auto;
-  position: relative;
-  top: 18%;
+  height: 80%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
   @media only screen and (max-width: 550px) {
     height: auto;
     max-height: 75%;
-    top: 20%;
     width: 66%;
   }
 `;
 
-const BigPicCaption = styled.figcaption`
+const BigPicImage = styled.img`
+  background: url(${(props) => props.src}) no-repeat;
+  background-size: contain;
+  height: 80%;
+  width: auto;
+
+  @media only screen and (max-width: 550px) {
+    height: auto;
+    width: 100%;
+  }
+`;
+
+const BigPicCaption = styled.p`
   color: white;
   font-size: 12px;
   font-weight: lighter;
-  padding: 2px;
-  position: relative;
+  padding: 10px;
   text-align: center;
   width: 100%;
 `;
@@ -115,9 +125,12 @@ export default class ArtMaker extends Component {
           alt="an artpiece"
           onClick={this.zoomIn}
         />
-        <BigPicWrapper show={this.state.isZoomed} onClick={this.zoomOut}>
-          <BigPicImage src={this.props.art} alt="zoom-in artpiece" />
-        </BigPicWrapper>
+        <BigPicBackground show={this.state.isZoomed} onClick={this.zoomOut}>
+          <BigPicWrapper>
+            <BigPicImage src={this.props.art} alt="zoom-in artpiece" />
+            <BigPicCaption>{this.props.caption}</BigPicCaption>
+          </BigPicWrapper>
+        </BigPicBackground>
       </>
     );
   }
