@@ -66,7 +66,16 @@ const TitleWrapper = styled.p`
   text-align: left;
 `;
 
-const LogWrapper = styled.p`
+const LocWrapper = styled.p`
+  float: right;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: right;
+`;
+
+const DurWrapper = styled.p`
   float: right;
   font-size: 10px;
   font-weight: lighter;
@@ -87,18 +96,23 @@ export default class WorkExpMaker extends Component {
         <TextBox>
           <TitleWrapper>
             {this.props.name}
-            <LogWrapper>
-              {this.props.location}
-              <br />
-              {this.props.duration}
-            </LogWrapper>
-            <h6>{this.props.position}</h6>
+            <LocWrapper>{this.props.location}</LocWrapper>
           </TitleWrapper>
-          <ul className="m-0 text-left">
-            {this.props.description.map((point) => (
-              <DescWrapper>{point}</DescWrapper>
-            ))}
-          </ul>
+          {this.props.positions.map((position) => {
+            return (
+              <div className="mb-2 p-0">
+                <h6 className="text-left">
+                  {position.title}
+                  <DurWrapper>{position.duration}</DurWrapper>
+                </h6>
+                <ul className="m-0 text-left">
+                  {position.description.map((point) => {
+                    return <DescWrapper>{point}</DescWrapper>;
+                  })}
+                </ul>
+              </div>
+            );
+          })}
         </TextBox>
       </WorkWrapper>
     );

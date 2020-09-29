@@ -48,11 +48,9 @@ export default class WorkExp extends Component {
                 <WorkExpMaker
                   name={workExp.name}
                   logo={workExp.logo}
-                  position={workExp.position}
                   location={workExp.location}
-                  duration={workExp.duration}
                   url={workExp.url}
-                  description={workExp.description}
+                  positions={workExp.positions}
                 />
               );
             })}

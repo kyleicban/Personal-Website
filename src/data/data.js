@@ -30,92 +30,135 @@ import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
   {
+    name: "The Daily Bruin",
+    logo: dailyBruin,
+    location: "UCLA, Los Angeles, CA",
+    url: "https://dailybruin.com/author/kyle-icban",
+    positions: [
+      {
+        title: "Software Developer",
+        duration: "October 2020 - Present",
+        description: ["Will further contribute to the online team"],
+      },
+      {
+        title: "Senior Editorial Cartoonist",
+        duration: "October 2018 - Present",
+        description: [
+          "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
+        ],
+      },
+      {
+        title: "Cartoons Beat Manager",
+        duration: "May 2019 - May 2020",
+        description: [
+          "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
+          "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
+        ],
+      },
+    ],
+  },
+  {
     name: "PeachPay, Inc",
     logo: peachpay,
-    position: "Software Engineer & Design Intern",
     location: "Des Moines, IA",
-    duration: "August 2020 - Present",
     url: "https://peachpay.app/",
-    description: [
-      "Lead initiatives to refine the mobile app from a MVP to a professional product",
-      "Rebuilt the user interface of the company app, which led to an increase user engagement by 20%",
-      "Redesigned visual assets including logos, graphics, and promotional artwork",
+    positions: [
+      {
+        title: "Software Engineering & Design Intern",
+        duration: "August 2020 - Present",
+        description: [
+          "Rebuilt the mobile user interface leading to a more friendly and welcoming user environment",
+          "Reorganized the app layout for a better customer experience, increasing user engagement by 20%",
+          "Built new checkpoints for unit testing, enhancing the efficiency in which the team outputs code",
+          "Redesigned visual assets including logos, graphics, and promotional artwork",
+        ],
+      },
     ],
   },
   {
     name: "Enfinite Technologies",
     logo: enfinite,
-    position: "Software Engineer Intern",
     location: "Houston, TX",
-    duration: "August 2020 - Present",
     url: "https://www.enfinitetech.com/",
-    description: [
-      "Programmed a GUI Dashboard where users can enter different data types to be stored in an SQL database",
-      "Built a custom plug in to better handle larger amounts of data on Grafana",
+    positions: [
+      {
+        title: "Full Stack Engineering Intern",
+        duration: "August 2020 - October 2020",
+        description: [
+          "Developed a dashboard to post data into Amazon DynamoDB, allowing clients to submit their own data",
+          "Built database infrastructure and wrote APIs for multiple projects ",
+          "Programmed a custom plugin to better handle large amounts of data on Grafana",
+          "Demonstrated impressive motivation to complete assignments outside of the comfort zone",
+        ],
+      },
     ],
   },
   {
-    name: "HOURS",
+    name: "HOURS, LLC",
     logo: hours,
-    position: "UI/UX Intern",
     location: "New York, NY",
-    duration: "June 2020 - August 2020",
     url: "https://angel.co/company/jazelle",
-    description: [
-      "Established a new brand identity for the company through surveys, wireframing, and user flows",
-      "Helped ideate the company product from scratch by doing research on the buy and resell market",
-      "Designed an app prototype to perform tests and improve the usability of the company product",
+    positions: [
+      {
+        title: "UI/UX Intern",
+        duration: "June 2020 - August 2020",
+        description: [
+          "Established a new brand identity for the company through surveys, wireframing, and user flows",
+          "Helped ideate the company product from scratch by doing research on the buy and resell market",
+          "Designed an app prototype to perform tests and improve the usability of the company product",
+        ],
+      },
     ],
   },
   {
     name: "MIT Press",
     logo: mitPress,
-    position: "Graphic Designer",
     location: "Cambridge, MA",
-    duration: "April 2020 - Present",
     url: "https://mitpress.mit.edu/",
-    description: [
-      "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
-      "Communicated with the research group to confirm that the scientific information is accurate",
-      "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
+    positions: [
+      {
+        title: "Graphic Designer",
+        duration: "April 2020 - July 2020",
+        description: [
+          "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
+          "Communicated with the research group to confirm that the scientific information is accurate",
+          "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
+        ],
+      },
     ],
   },
   {
     name: "UCLA Mathematics",
     logo: uclaMath,
-    position: "Math Grader",
     location: "UCLA, Los Angeles, CA",
-    duration: "October 2019 - July 2020",
     url: "https://ww3.math.ucla.edu/",
-    description: [
-      "Exercised impressive time management skills by grading 210 assignments from students each week",
-      "Developed great relationships with world-renowned professors by maintaining close communication in the mathematics department",
-      "Demonstrated a strong background in lower-division mathematics courses to accurately evaluate students performance in the course",
-    ],
-  },
-  {
-    name: "The Daily Bruin",
-    logo: dailyBruin,
-    position: "Cartoons Beat Manager",
-    location: "UCLA, Los Angeles, CA",
-    duration: "October 2018 - May 2020",
-    url: "https://dailybruin.com/author/kyle-icban",
-    description: [
-      "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
-      "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
+    positions: [
+      {
+        title: "Math Grader",
+        duration: "October 2019 - July 2020",
+        description: [
+          "Exercised impressive time management skills by grading 210 assignments from students each week",
+          "Developed great relationships with world-renowned professors by maintaining close communication in the mathematics department",
+          "Demonstrated a strong background in lower-division mathematics courses to accurately evaluate students performance in the course",
+        ],
+      },
     ],
   },
   {
     name: "Epitome Academy",
     logo: epitome,
-    position: "Math and English Teacher",
     location: "Diamond Bar, CA",
-    duration: "June 2019 - September 2019",
     url: "https://www.epitomeacademy.com/",
-    description: [
-      "Strengthened leadership skills by running a class of 12 elementary school students",
-      "Demonstrated effective communication and patience with special needs children",
-      "Improved children's letter grades in subjects by an average of 10%",
+    positions: [
+      {
+        title: "Math and English Teacher",
+        duration: "June 2019 - September 2019",
+        description: [
+          "Strengthened leadership skills by running a class of 12 elementary school students",
+          "Demonstrated effective communication and patience with special needs children",
+          "Improved children's letter grades in subjects by an average of 10%",
+        ],
+      },
     ],
   },
 ];

@@ -24,7 +24,7 @@ const HeaderWrapper = styled.div`
 `;
 
 const NavWrapper = styled.div`
-  background: rgba(28, 56, 94, 0.75);
+  background: rgba(28, 56, 94, 0.25);
   left: 0;
   padding: 2px;
   position: fixed;
