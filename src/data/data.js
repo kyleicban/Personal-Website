@@ -78,7 +78,7 @@ export const WorkExpList = [
   {
     name: "Enfinite Technologies",
     logo: enfinite,
-    location: "Houston, TX",
+    location: "Los Angeles, CA",
     url: "https://www.enfinitetech.com/",
     positions: [
       {

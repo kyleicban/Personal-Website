@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, HashRouter, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import ArtPort from "./ArtPortfolio";

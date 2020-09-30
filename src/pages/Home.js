@@ -47,43 +47,34 @@ export default class Home extends Component {
           <TitleWrapper>ABOUT ME</TitleWrapper>
           <OutlineWrapper>
             <BodyWrapper>
-              "My name is Kyle Icban and I'm a third year Mathematics of
-              Computation major at UCLA. I'm an aspiring Software Engineer
-              looking for any opportunity to help me further develop this
-              totally original passion I have. I also have 2 years of
-              professional design and illustration experience. I'm particularly
-              interested in Front End Web Dev and Game Dev. Here is the part
-              where I keep talking about myself, so if you don't really care
-              then feel free to check out some other links, I don't mind!
-              <br />
-              <br />
-              But if you're still here then here is more or less what I tell
-              interviewers when they say "TELL ME ABOUT YOURSELF" (as the title
-              would suggest duhh):
+              "My name is Kyle Icban and I'm a third year student studying
+              Mathematics of Computation with a minor in Philosophy at UCLA. I'm
+              an aspiring Web Developer currently looking for an internship role
+              for Spring or Summer 2021. As an added plus, I also have 2 years
+              of professional design and illustration experience. In my free
+              time I enjoy hiking, rock climbing, and playing video games with
+              my friends.
               <br />
               <br />
               I started my college career at UCLA as a Pure Mathematics major,
-              so yea I like math. But halfway through my second year as I
-              started getting deeper into theoretical mathematics, I discovered
-              that this pure math was NOT IT for me. Luckily, it was then where
-              I took my first programming class. My initial thought was "oh hey,
-              this isn't so bad." I suppose my math background made this field
-              transition a lot easier.
+              but halfway through my second year as I started getting deeper
+              into theoretical mathematics, I discovered that this field did not
+              suit my interests anymore. I still thoroughly enjoy the logical
+              grit needed to solve these mathematical deductions, however I
+              found myself lacking stimulation in the creativity department. It
+              was then when I decided to shift career paths into the tech
+              industry.
               <br />
               <br />
-              So here I am, jumping into a different subject doing as much as I
-              can to learn as much as I can. In just one summer, I managed to
-              teach myself the fundamentals of Javscript and React. In just one
-              summer, I completed three internships in various positions in
-              design, frontend, and backend development. In just one summer, I
-              surprised even myself about how much I love coding. My goal: to
-              continue to build my skillset to one day become a somewhat decent
-              programming. Stay tuned to receive further updates on where I'm at
-              :D
-              <br />
-              <br />
-              Thanks for making it this far and for checking out my website!
-              Feel free to click on any links :)"
+              Summer 2020 marked my dead sprint into software development. After
+              countless hours of self study and motivation, I feel confident
+              enough to proudly call myself a full stack web developer. In just
+              one summer, I completed three internships in various positions in
+              design, frontend, and backend development. As I enter the
+              2020-2021 school year, I'm determined to keep this momentum going
+              in my favor. My goal: to continue to build my skillset to one day
+              become a among some of the best developers in the industry. Stay
+              tuned to receive further updates on where I'm at!"
               <br />
               <br />
               --Kyle Icban
