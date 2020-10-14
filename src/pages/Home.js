@@ -26,6 +26,14 @@ const BodyWrapper = styled.p`
 `;
 
 export default class Home extends Component {
+  componentDidMount() {
+    window.scrollTo({
+      top: 0,
+      left: 100,
+      behavior: 'smooth'
+    });
+  }
+
   render() {
     return (
       <PageWrapper>
@@ -49,9 +57,8 @@ export default class Home extends Component {
             <BodyWrapper>
               "My name is Kyle Icban and I'm a third year student studying
               Mathematics of Computation with a minor in Philosophy at UCLA. I'm
-              an aspiring Web Developer currently looking for an internship role
-              for Spring or Summer 2021. As an added plus, I also have 2 years
-              of professional design and illustration experience. In my free
+              an aspiring Web Developer and UI Designer currently looking for an 
+              internship role for Spring or Summer 2021. In my free
               time I enjoy hiking, rock climbing, and playing video games with
               my friends.
               <br />
@@ -66,14 +73,14 @@ export default class Home extends Component {
               industry.
               <br />
               <br />
-              Summer 2020 marked my dead sprint into software development. After
-              countless hours of self study and motivation, I feel confident
+              Summer 2020 marked my dead sprint into design and software development. 
+              After countless hours of self study and motivation, I feel confident
               enough to proudly call myself a full stack web developer. In just
               one summer, I completed three internships in various positions in
               design, frontend, and backend development. As I enter the
               2020-2021 school year, I'm determined to keep this momentum going
               in my favor. My goal: to continue to build my skillset to one day
-              become a among some of the best developers in the industry. Stay
+              work alongside some of the best developers in the industry. Stay
               tuned to receive further updates on where I'm at!"
               <br />
               <br />

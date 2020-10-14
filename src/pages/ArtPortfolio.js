@@ -27,6 +27,14 @@ const ArtPortWrapper = styled.div`
 `;
 
 export default class ArtPort extends Component {
+  componentDidMount() {
+    window.scrollTo({
+      top: 280,
+      left: 100,
+      behavior: 'smooth'
+    });
+  }
+
   render() {
     return (
       <PageWrapper>

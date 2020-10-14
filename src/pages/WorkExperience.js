@@ -21,9 +21,15 @@ const WorkExpWrapper = styled.div`
 `;
 
 export default class WorkExp extends Component {
+  componentDidMount() {
+    window.scrollTo({
+      top: 280,
+      left: 100,
+      behavior: 'smooth'
+    });
+  }
+
   render() {
-    //====EVENTUALLY WANT IT SO I PASS IN AN OBJECT====
-    //====AND IT FILLS IN EVERYTHING====
     return (
       <PageWrapper>
         <motion.div
