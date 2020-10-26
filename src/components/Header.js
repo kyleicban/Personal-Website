@@ -8,6 +8,7 @@ import {
   AiOutlineMail,
   AiOutlineInstagram,
 } from "react-icons/ai";
+import { CircleDesign } from "../shared/CircleDesign";
 
 import mainpic from "../assets/me1.jpg";
 import hoverpic from "../assets/me2.jpg";
@@ -18,8 +19,10 @@ const HeaderWrapper = styled.div`
   color: white;
   font-weight: lighter;
   margin: 0;
+  overflow: hidden;
   padding: 5px;
   padding-bottom: 100px;
+  position: relative;
   width: 100%;
 `;
 
@@ -52,6 +55,7 @@ const BottomWrapper = styled.div`
   display: flex;
   margin: 0;
   margin-top: 5px;
+  position: relative;
 
   @media only screen and (max-width: 810px) {
     flex-direction: column;
@@ -176,6 +180,8 @@ export default class Header extends Component {
           </HashRouter>
         </NavWrapper>
         <HeaderWrapper>
+          <CircleDesign left='10%' size='675px' top='95%' />
+          <CircleDesign left='95%' size='400px' top='97%' />
           <BottomWrapper>
             <ProfPic />
             <TextWrapper>
