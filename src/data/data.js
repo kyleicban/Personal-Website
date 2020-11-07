@@ -16,6 +16,7 @@ import UnnecessaryFees from "../assets/artPortImages/dbCartoonUnnecessaryFees.jp
 import WhyDoesOilSplash from "../assets/artPortImages/dbWhyDoesOilSplash.jpg";
 import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientation.jpg";
 
+import atlassian from "../assets/logos/atlassian.png";
 import calculator from "../assets/logos/calculator.png";
 import dailyBruin from "../assets/logos/dailyBruin.png";
 import dungeonDelver from "../assets/logos/dungeonDelver.png";
@@ -30,15 +31,33 @@ import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
   {
+    name: "Atlassian",
+    logo: atlassian,
+    location: "San Francisco, CA",
+    url: "https://www.atlassian.com/",
+    positions: [
+      {
+        title: "Frontend Engineer Intern",
+        duration: "Summer 2021",
+        description: [
+          "Will contribute starting June 2021",
+        ],
+      },
+    ],
+  },
+  {
     name: "The Daily Bruin",
     logo: dailyBruin,
     location: "UCLA, Los Angeles, CA",
     url: "https://dailybruin.com/author/kyle-icban",
     positions: [
       {
-        title: "Software Developer",
+        title: "Data Journalist",
         duration: "October 2020 - Present",
-        description: ["Will further contribute to the online team"],
+        description: [
+          "Visualize large datasets to enhance the interactive component of articles",
+          "Scraped data with Python to be reinterpreted into compelling news articless"
+        ],
       },
       {
         title: "Senior Editorial Cartoonist",
