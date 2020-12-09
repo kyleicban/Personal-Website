@@ -30,21 +30,21 @@ import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
-  // {
-  //   name: "Atlassian",
-  //   logo: atlassian,
-  //   location: "San Francisco, CA",
-  //   url: "https://www.atlassian.com/",
-  //   positions: [
-  //     {
-  //       title: "Frontend Engineer Intern",
-  //       duration: "Summer 2021",
-  //       description: [
-  //         "Will contribute starting June 2021",
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    name: "Atlassian",
+    logo: atlassian,
+    location: "San Francisco, CA",
+    url: "https://www.atlassian.com/",
+    positions: [
+      {
+        title: "Frontend Engineer Intern",
+        duration: "Summer 2021",
+        description: [
+          "Will contribute starting June 2021",
+        ],
+      },
+    ],
+  },
   {
     name: "The Daily Bruin",
     logo: dailyBruin,
