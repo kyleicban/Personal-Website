@@ -26,6 +26,7 @@ import hours from "../assets/logos/hours.jpg";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
 import quarantime from "../assets/logos/quarantime.png";
+import spirals from "../assets/logos/spirals.png";
 import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
 
@@ -46,6 +47,25 @@ export const WorkExpList = [
     ],
   },
   {
+    name: "PeachPay, Inc",
+    logo: peachpay,
+    location: "Des Moines, IA",
+    url: "https://peachpay.app/",
+    positions: [
+      {
+        title: "Frontend Engineering & Design Intern",
+        duration: "August 2020 - Present",
+        description: [
+          "Lead a project to redesign the company website to attract more users and businesses",
+          "Built the mobile user interface leading to a more friendly and welcoming user environment",
+          "Reorganized the app layout for a better customer experience, increasing user engagement by 20%",
+          "Built new checkpoints for unit testing, enhancing the efficiency in which the team outputs code",
+          "Redesigned visual assets including logos, graphics, and promotional artwork",
+        ],
+      },
+    ],
+  },  
+  {
     name: "The Daily Bruin",
     logo: dailyBruin,
     location: "UCLA, Los Angeles, CA",
@@ -53,7 +73,7 @@ export const WorkExpList = [
     positions: [
       {
         title: "Data Journalist",
-        duration: "October 2020 - Present",
+        duration: "October 2020 - December 2020",
         description: [
           "Visualize large datasets to enhance the interactive component of articles",
           "Scraped data with Python to be reinterpreted into compelling news articless"
@@ -61,7 +81,7 @@ export const WorkExpList = [
       },
       {
         title: "Senior Editorial Cartoonist",
-        duration: "October 2018 - Present",
+        duration: "October 2018 - December 2020",
         description: [
           "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
         ],
@@ -72,24 +92,6 @@ export const WorkExpList = [
         description: [
           "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
           "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
-        ],
-      },
-    ],
-  },
-  {
-    name: "PeachPay, Inc",
-    logo: peachpay,
-    location: "Des Moines, IA",
-    url: "https://peachpay.app/",
-    positions: [
-      {
-        title: "Software Engineering & Design Intern",
-        duration: "August 2020 - Present",
-        description: [
-          "Rebuilt the mobile user interface leading to a more friendly and welcoming user environment",
-          "Reorganized the app layout for a better customer experience, increasing user engagement by 20%",
-          "Built new checkpoints for unit testing, enhancing the efficiency in which the team outputs code",
-          "Redesigned visual assets including logos, graphics, and promotional artwork",
         ],
       },
     ],
@@ -113,10 +115,10 @@ export const WorkExpList = [
     ],
   },
   {
-    name: "HOURS, LLC",
+    name: "HOURS",
     logo: hours,
     location: "New York, NY",
-    url: "https://angel.co/company/jazelle",
+    url: "https://www.hoursapp.co/",
     positions: [
       {
         title: "UI/UX Intern",
@@ -183,6 +185,15 @@ export const WorkExpList = [
 ];
 
 export const ProjectList = [
+  {
+    name: "Generative Art",
+    logo: spirals,
+    url: "https://github.com/kyleicban/generative-art",
+    description: [
+      "Created an ongoing project that uses code to autonomously generate artwork",
+      "Used the p5 library in Javascript and turtle library in Python",
+    ],
+  },
   {
     name: "Sport Store Application",
     logo: sportsstore,
