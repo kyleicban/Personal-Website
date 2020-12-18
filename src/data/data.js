@@ -22,7 +22,7 @@ import dailyBruin from "../assets/logos/dailyBruin.png";
 import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
 import epitome from "../assets/logos/epitome.jpg";
-import hours from "../assets/logos/hours.jpg";
+import juni from "../assets/logos/juni.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
 import quarantime from "../assets/logos/quarantime.png";
@@ -42,6 +42,21 @@ export const WorkExpList = [
         duration: "Summer 2021",
         description: [
           "Will contribute starting June 2021",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Juni Learning",
+    logo: juni,
+    location: "San Francisco, CA",
+    url: "https://junilearning.com/",
+    positions: [
+      {
+        title: "Computer Science Instructor",
+        duration: "December 2020 - Present",
+        description: [
+          "Virtually taught Python and Web Development to students K-12",
         ],
       },
     ],
@@ -109,24 +124,6 @@ export const WorkExpList = [
           "Developed a dashboard to post data into Amazon DynamoDB, allowing clients to submit their own data",
           "Built database infrastructure and wrote APIs for multiple projects ",
           "Programmed a custom plugin to better handle large amounts of data on Grafana",
-          "Demonstrated impressive motivation to complete assignments outside of the comfort zone",
-        ],
-      },
-    ],
-  },
-  {
-    name: "HOURS",
-    logo: hours,
-    location: "New York, NY",
-    url: "https://www.hoursapp.co/",
-    positions: [
-      {
-        title: "UI/UX Intern",
-        duration: "June 2020 - August 2020",
-        description: [
-          "Established a new brand identity for the company through surveys, wireframing, and user flows",
-          "Helped ideate the company product from scratch by doing research on the buy and resell market",
-          "Designed an app prototype to perform tests and improve the usability of the company product",
         ],
       },
     ],
@@ -165,23 +162,23 @@ export const WorkExpList = [
       },
     ],
   },
-  {
-    name: "Epitome Academy",
-    logo: epitome,
-    location: "Diamond Bar, CA",
-    url: "https://www.epitomeacademy.com/",
-    positions: [
-      {
-        title: "Math and English Teacher",
-        duration: "June 2019 - September 2019",
-        description: [
-          "Strengthened leadership skills by running a class of 12 elementary school students",
-          "Demonstrated effective communication and patience with special needs children",
-          "Improved children's letter grades in subjects by an average of 10%",
-        ],
-      },
-    ],
-  },
+  // {
+  //   name: "Epitome Academy",
+  //   logo: epitome,
+  //   location: "Diamond Bar, CA",
+  //   url: "https://www.epitomeacademy.com/",
+  //   positions: [
+  //     {
+  //       title: "Math and English Teacher",
+  //       duration: "June 2019 - September 2019",
+  //       description: [
+  //         "Strengthened leadership skills by running a class of 12 elementary school students",
+  //         "Demonstrated effective communication and patience with special needs children",
+  //         "Improved children's letter grades in subjects by an average of 10%",
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export const ProjectList = [
@@ -192,6 +189,15 @@ export const ProjectList = [
     description: [
       "Created an ongoing project that uses code to autonomously generate artwork",
       "Used the p5 library in Javascript and turtle library in Python",
+    ],
+  },
+  {
+    name: "Dungeon Delver",
+    logo: dungeonDelver,
+    url: "https://github.com/kyleicban/Dungeon-Delver",
+    description: [
+      "Created an adventure game ran on the console (.exe available for download on GitHub)",
+      "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
     ],
   },
   {
@@ -209,7 +215,7 @@ export const ProjectList = [
     url: "https://github.com/kyleicban/GPA-Calculator",
     description: [
       "Developed a responsive calculator with warning and error indicators",
-      "Ongoing project to eventually include a four year class planner and final grade calculator",
+      "Showcased fundamental understanding on navigating the DOM using vanilla Javascript",
     ],
   },
   {
@@ -219,15 +225,6 @@ export const ProjectList = [
     description: [
       "Designed a mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
       "Incorporated user reseach, wireframing and A/B Testing in the development process",
-    ],
-  },
-  {
-    name: "Dungeon Delver",
-    logo: dungeonDelver,
-    url: "https://github.com/kyleicban/Dungeon-Delver",
-    description: [
-      "Created an adventure game ran on the console (.exe available for download on GitHub)",
-      "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
     ],
   },
 ];
