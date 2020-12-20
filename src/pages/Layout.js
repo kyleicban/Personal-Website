@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Home from "./Home";
 import Project from "./Projects";
-import WorkExp from "./WorkExperience";
+import WorkExp from "./WorkExperience/WorkExperience";
 
 const categories = ["Work_Experience", "Projects", "Art_Portfolio"];
 
