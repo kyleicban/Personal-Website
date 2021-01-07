@@ -39,9 +39,9 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineer Intern",
-        duration: "Summer 2021",
+        duration: "",
         description: [
-          "Will contribute starting June 2021",
+          "Will contribute in 2021",
         ],
       },
     ],
@@ -69,7 +69,7 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineering & Design Intern",
-        duration: "August 2020 - Present",
+        duration: "August 2020 - December 2020",
         description: [
           "Lead a project to redesign the company website to attract more users and businesses",
           "Built the mobile user interface leading to a more friendly and welcoming user environment",
@@ -235,25 +235,25 @@ export const ArtPortImages = [
     caption:
       "Cover design for exploretech.la for the Sponsorship Packet to be shown to companies.",
   },
-  {
-    art: tbCover,
-    caption:
-      'Conceptual design for a textbook about how humanity\'s next "Einstein" will most likely be a robot.',
-  },
-  {
-    art: tbFigureEightOne,
-    caption:
-      "Multi-part figure describing (a) what a wavelength is, (b) the electromagnetic spectrum, (c) how cameras can selectively filter light, and (d) what spectral imaging is.",
-  },
-  {
-    art: tbFigureEightTwo,
-    caption: "A figure answering the question: Why is the sky blue?",
-  },
-  {
-    art: tbFigureSevenOne,
-    caption:
-      "A figure attempting to explain how vikings used birefringence to navigate around.",
-  },
+  // {
+  //   art: tbCover,
+  //   caption:
+  //     'Conceptual design for a textbook about how humanity\'s next "Einstein" will most likely be a robot.',
+  // },
+  // {
+  //   art: tbFigureEightOne,
+  //   caption:
+  //     "Multi-part figure describing (a) what a wavelength is, (b) the electromagnetic spectrum, (c) how cameras can selectively filter light, and (d) what spectral imaging is.",
+  // },
+  // {
+  //   art: tbFigureEightTwo,
+  //   caption: "A figure answering the question: Why is the sky blue?",
+  // },
+  // {
+  //   art: tbFigureSevenOne,
+  //   caption:
+  //     "A figure attempting to explain how vikings used birefringence to navigate around.",
+  // },
   {
     art: FoxTheater,
     caption:

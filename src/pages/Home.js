@@ -56,9 +56,9 @@ export default class Home extends Component {
           <OutlineWrapper>
             <BodyWrapper>
               "My name is Kyle Icban and I'm a third year student studying
-              Mathematics of Computation at UCLA. I'm
-              an aspiring Web Developer currently looking for an 
-              internship role for Spring 2021. In my free
+              Applied Mathematics with a Computing Specialization at UCLA. I'm
+              an aspiring Frontend Web Developer with extensive background in 
+              design, product management and full stack development. In my free
               time I enjoy hiking, rock climbing, and playing video games with
               my friends.
               <br />
