@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class App extends Component {
-  render() {
+import Home from "./pages/Home.js";
+
+export default function App() {
     return <>
-      Hello world
+      <Home />
     </>;
-  }
 }
