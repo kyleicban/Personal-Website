@@ -34,12 +34,12 @@ export const WorkExpList = [
   {
     name: "Atlassian",
     logo: atlassian,
-    location: "San Francisco, CA",
+    location: "New York, NY",
     url: "https://www.atlassian.com/",
     positions: [
       {
         title: "Frontend Engineer Intern",
-        duration: "",
+        duration: "Summer 2021",
         description: [
           "Will contribute in 2021",
         ],
@@ -56,7 +56,7 @@ export const WorkExpList = [
         title: "Computer Science Instructor",
         duration: "December 2020 - Present",
         description: [
-          "Virtually taught Python and Web Development to students K-12",
+          "Virtually taught Python, C++ and Web Development to students K-12",
         ],
       },
     ],
@@ -64,7 +64,7 @@ export const WorkExpList = [
   {
     name: "PeachPay, Inc",
     logo: peachpay,
-    location: "Des Moines, IA",
+    location: "Ames, IA",
     url: "https://peachpay.app/",
     positions: [
       {
@@ -72,10 +72,10 @@ export const WorkExpList = [
         duration: "August 2020 - December 2020",
         description: [
           "Lead a project to redesign the company website to attract more users and businesses",
-          "Built the mobile user interface leading to a more friendly and welcoming user environment",
-          "Reorganized the app layout for a better customer experience, increasing user engagement by 20%",
-          "Built new checkpoints for unit testing, enhancing the efficiency in which the team outputs code",
+          "Built a new user interface for the mobile app increasing user engagement by 20%",
+          "Worked on company branding with the growth team, helping them receive a $100k investment",
           "Redesigned visual assets including logos, graphics, and promotional artwork",
+          "Built new checkpoints for unit testing, enhancing the efficiency in which the team outputs code",
         ],
       },
     ],
