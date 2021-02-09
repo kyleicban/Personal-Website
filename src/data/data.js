@@ -39,7 +39,7 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineer Intern",
-        duration: "Summer 2021",
+        duration: "",
         description: [
           "Will contribute in 2021",
         ],
@@ -56,7 +56,7 @@ export const WorkExpList = [
         title: "Computer Science Instructor",
         duration: "December 2020 - Present",
         description: [
-          "Virtually taught Python, C++ and Web Development to students K-12",
+          "Virtually taught Python, C++, and Javascript to students K-12",
         ],
       },
     ],
@@ -86,14 +86,6 @@ export const WorkExpList = [
     location: "UCLA, Los Angeles, CA",
     url: "https://dailybruin.com/author/kyle-icban",
     positions: [
-      {
-        title: "Data Journalist",
-        duration: "October 2020 - December 2020",
-        description: [
-          "Visualize large datasets to enhance the interactive component of articles",
-          "Scraped data with Python to be reinterpreted into compelling news articless"
-        ],
-      },
       {
         title: "Senior Editorial Cartoonist",
         duration: "October 2018 - December 2020",
