@@ -17,15 +17,15 @@ import WhyDoesOilSplash from "../assets/artPortImages/dbWhyDoesOilSplash.jpg";
 import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientation.jpg";
 
 import atlassian from "../assets/logos/atlassian.png";
-import calculator from "../assets/logos/calculator.png";
+// import calculator from "../assets/logos/calculator.png";
 import dailyBruin from "../assets/logos/dailyBruin.png";
 import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
-import epitome from "../assets/logos/epitome.jpg";
+// import epitome from "../assets/logos/epitome.jpg";
 import juni from "../assets/logos/juni.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
-import quarantime from "../assets/logos/quarantime.png";
+// import quarantime from "../assets/logos/quarantime.png";
 import spirals from "../assets/logos/spirals.png";
 import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
@@ -39,9 +39,9 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineer Intern",
-        duration: "",
+        duration: "Summer 2021",
         description: [
-          "Will contribute in 2021",
+          "Will contribute in starting June 2021",
         ],
       },
     ],
@@ -62,13 +62,30 @@ export const WorkExpList = [
     ],
   },
   {
+    name: "MIT Press",
+    logo: mitPress,
+    location: "Cambridge, MA",
+    url: "https://mitpress.mit.edu/",
+    positions: [
+      {
+        title: "Graphic Designer",
+        duration: "January 2021 - March 2021",
+        description: [
+          "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
+          "Communicated with the research group to confirm that the scientific information is accurate",
+          "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
+        ],
+      },
+    ],
+  },
+  {
     name: "PeachPay, Inc",
     logo: peachpay,
     location: "Ames, IA",
     url: "https://peachpay.app/",
     positions: [
       {
-        title: "Frontend Engineering & Design Intern",
+        title: "Frontend Engineering & Product Design Intern",
         duration: "August 2020 - December 2020",
         description: [
           "Lead a project to redesign the company website to attract more users and businesses",
@@ -116,23 +133,6 @@ export const WorkExpList = [
           "Developed a dashboard to post data into Amazon DynamoDB, allowing clients to submit their own data",
           "Built database infrastructure and wrote APIs for multiple projects ",
           "Programmed a custom plugin to better handle large amounts of data on Grafana",
-        ],
-      },
-    ],
-  },
-  {
-    name: "MIT Press",
-    logo: mitPress,
-    location: "Cambridge, MA",
-    url: "https://mitpress.mit.edu/",
-    positions: [
-      {
-        title: "Graphic Designer",
-        duration: "April 2020 - July 2020",
-        description: [
-          "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
-          "Communicated with the research group to confirm that the scientific information is accurate",
-          "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
         ],
       },
     ],
@@ -201,24 +201,24 @@ export const ProjectList = [
       "Integrated Routing, REST API, Pagination, and Login Authentication using React",
     ],
   },
-  {
-    name: "GPA Calculator",
-    logo: calculator,
-    url: "https://github.com/kyleicban/GPA-Calculator",
-    description: [
-      "Developed a responsive calculator with warning and error indicators",
-      "Showcased fundamental understanding on navigating the DOM using vanilla Javascript",
-    ],
-  },
-  {
-    name: "Quarantime",
-    logo: quarantime,
-    url: "https://devpost.com/software/quarantime-j1d7lp",
-    description: [
-      "Designed a mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
-      "Incorporated user reseach, wireframing and A/B Testing in the development process",
-    ],
-  },
+  // {
+  //   name: "GPA Calculator",
+  //   logo: calculator,
+  //   url: "https://github.com/kyleicban/GPA-Calculator",
+  //   description: [
+  //     "Developed a responsive calculator with warning and error indicators",
+  //     "Showcased fundamental understanding on navigating the DOM using vanilla Javascript",
+  //   ],
+  // },
+  // {
+  //   name: "Quarantime",
+  //   logo: quarantime,
+  //   url: "https://devpost.com/software/quarantime-j1d7lp",
+  //   description: [
+  //     "Designed a mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
+  //     "Incorporated user reseach, wireframing and A/B Testing in the development process",
+  //   ],
+  // },
 ];
 
 export const ArtPortImages = [
