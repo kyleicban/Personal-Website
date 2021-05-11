@@ -5,7 +5,7 @@ import Dolphins from "../assets/artPortImages/dbCartoonDolphins.jpg";
 import FoxTheater from "../assets/artPortImages/dbCentFoxTheater.jpg";
 import JanssDome from "../assets/artPortImages/dbCentJanssDome.jpg";
 import jitterbug from "../assets/artPortImages/jitterbug.jpg";
-import SponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
+// import SponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
 // import tbCover from "../assets/artPortImages/tbCover.png";
 // import tbFigureEightOne from "../assets/artPortImages/tbFigureEightOne.png";
 // import tbFigureEightTwo from "../assets/artPortImages/tbFigureEightTwo.png";
@@ -18,7 +18,7 @@ import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientat
 
 import atlassian from "../assets/logos/atlassian.png";
 // import calculator from "../assets/logos/calculator.png";
-import dailyBruin from "../assets/logos/dailyBruin.png";
+// import dailyBruin from "../assets/logos/dailyBruin.png";
 import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
 // import epitome from "../assets/logos/epitome.jpg";
@@ -47,21 +47,6 @@ export const WorkExpList = [
     ],
   },
   {
-    name: "Juni Learning",
-    logo: juni,
-    location: "San Francisco, CA",
-    url: "https://junilearning.com/",
-    positions: [
-      {
-        title: "Computer Science Instructor",
-        duration: "December 2020 - Present",
-        description: [
-          "Virtually taught Python, C++, and Javascript to students K-12",
-        ],
-      },
-    ],
-  },
-  {
     name: "MIT Press",
     logo: mitPress,
     location: "Cambridge, MA",
@@ -69,11 +54,26 @@ export const WorkExpList = [
     positions: [
       {
         title: "Graphic Designer",
-        duration: "January 2021 - March 2021",
+        duration: "April 2020 - Present",
         description: [
           "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
           "Communicated with the research group to confirm that the scientific information is accurate",
           "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Juni Learning",
+    logo: juni,
+    location: "San Francisco, CA",
+    url: "https://junilearning.com/",
+    positions: [
+      {
+        title: "Computer Science Instructor",
+        duration: "December 2020 - May 2021",
+        description: [
+          "Virtually taught Python, C++, and Javascript to students K-12",
         ],
       },
     ],
@@ -97,29 +97,29 @@ export const WorkExpList = [
       },
     ],
   },  
-  {
-    name: "The Daily Bruin",
-    logo: dailyBruin,
-    location: "UCLA, Los Angeles, CA",
-    url: "https://dailybruin.com/author/kyle-icban",
-    positions: [
-      {
-        title: "Senior Editorial Cartoonist",
-        duration: "October 2018 - December 2020",
-        description: [
-          "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
-        ],
-      },
-      {
-        title: "Cartoons Beat Manager",
-        duration: "May 2019 - May 2020",
-        description: [
-          "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
-          "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
-        ],
-      },
-    ],
-  },
+  // {
+  //   name: "The Daily Bruin",
+  //   logo: dailyBruin,
+  //   location: "UCLA, Los Angeles, CA",
+  //   url: "https://dailybruin.com/author/kyle-icban",
+  //   positions: [
+  //     {
+  //       title: "Senior Editorial Cartoonist",
+  //       duration: "October 2018 - December 2020",
+  //       description: [
+  //         "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
+  //       ],
+  //     },
+  //     {
+  //       title: "Cartoons Beat Manager",
+  //       duration: "May 2019 - May 2020",
+  //       description: [
+  //         "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
+  //         "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     name: "Enfinite Technologies",
     logo: enfinite,
@@ -222,11 +222,11 @@ export const ProjectList = [
 ];
 
 export const ArtPortImages = [
-  {
-    art: SponsorshipCover,
-    caption:
-      "Cover design for exploretech.la for the Sponsorship Packet to be shown to companies.",
-  },
+  // {
+  //   art: SponsorshipCover,
+  //   caption:
+  //     "Cover design for exploretech.la for the Sponsorship Packet to be shown to companies.",
+  // },
   // {
   //   art: tbCover,
   //   caption:

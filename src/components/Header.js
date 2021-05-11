@@ -207,7 +207,7 @@ export default class Header extends Component {
                 >
                   <AiOutlineInstagram />
                 </SocialLink>
-                <SocialLink target="_blank" href="mailto:kyleicban@yahoo.com">
+                <SocialLink target="_blank" href="mailto:kicban29@gmail.com">
                   <AiOutlineMail />
                 </SocialLink>
               </LinkWrapper>
