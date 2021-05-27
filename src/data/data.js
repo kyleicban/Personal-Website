@@ -19,6 +19,7 @@ import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientat
 import atlassian from "../assets/logos/atlassian.png";
 // import calculator from "../assets/logos/calculator.png";
 // import dailyBruin from "../assets/logos/dailyBruin.png";
+import datafest from "../assets/logos/datafest.png";
 import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
 // import epitome from "../assets/logos/epitome.jpg";
@@ -26,11 +27,27 @@ import juni from "../assets/logos/juni.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
 // import quarantime from "../assets/logos/quarantime.png";
+import rubrik from "../assets/logos/rubrik.png";
 import spirals from "../assets/logos/spirals.png";
 import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
+  {
+    name: "Rubrik",
+    logo: rubrik,
+    location: "Palo Alto, CA",
+    url: "https://www.rubrik.com/",
+    positions: [
+      {
+        title: "Software Engineering Intern",
+        duration: "Fall 2021",
+        description: [
+          "Will contribute in starting September 2021",
+        ],
+      },
+    ],
+  },
   {
     name: "Atlassian",
     logo: atlassian,
@@ -38,7 +55,7 @@ export const WorkExpList = [
     url: "https://www.atlassian.com/",
     positions: [
       {
-        title: "Frontend Engineer Intern",
+        title: "Frontend Engineering Intern",
         duration: "Summer 2021",
         description: [
           "Will contribute in starting June 2021",
@@ -184,6 +201,14 @@ export const ProjectList = [
     ],
   },
   {
+    name: "UCLA Datafest 2021",
+    logo: datafest,
+    url: "https://drive.google.com/file/d/1LsT9yHBkhh-F-wjxJbR8hvZEiHSj8NMB/view?usp=sharing",
+    description: [
+      "Analyzed patterns in a dataset detailing demographic information in tandem with drug usage",
+      "Lead the team primarily in data visualization",
+    ],
+  },{
     name: "Dungeon Delver",
     logo: dungeonDelver,
     url: "https://github.com/kyleicban/Dungeon-Delver",
