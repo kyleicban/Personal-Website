@@ -29,12 +29,12 @@ import peachpay from "../assets/logos/peachpay.png";
 // import quarantime from "../assets/logos/quarantime.png";
 import rubrik from "../assets/logos/rubrik.png";
 import spirals from "../assets/logos/spirals.png";
-import sportsstore from "../assets/logos/sportsstore.jpg";
+// import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
   {
-    name: "Rubrik",
+    name: "Rubrik, Inc.",
     logo: rubrik,
     location: "Palo Alto, CA",
     url: "https://www.rubrik.com/",
@@ -51,14 +51,14 @@ export const WorkExpList = [
   {
     name: "Atlassian",
     logo: atlassian,
-    location: "New York, NY",
+    location: "Mountain View, CA",
     url: "https://www.atlassian.com/",
     positions: [
       {
         title: "Frontend Engineering Intern",
-        duration: "Summer 2021",
+        duration: "June 2021 - Present",
         description: [
-          "Will contribute in starting June 2021",
+          "Working with the Growth team for Trello, Confluence and Jira in an A/B experimental manner",
         ],
       },
     ],
@@ -80,23 +80,23 @@ export const WorkExpList = [
       },
     ],
   },
+  // {
+  //   name: "Juni Learning",
+  //   logo: juni,
+  //   location: "San Francisco, CA",
+  //   url: "https://junilearning.com/",
+  //   positions: [
+  //     {
+  //       title: "Computer Science Instructor",
+  //       duration: "December 2020 - May 2021",
+  //       description: [
+  //         "Virtually taught Python, C++, and Javascript to students K-12",
+  //       ],
+  //     },
+  //   ],
+  // },
   {
-    name: "Juni Learning",
-    logo: juni,
-    location: "San Francisco, CA",
-    url: "https://junilearning.com/",
-    positions: [
-      {
-        title: "Computer Science Instructor",
-        duration: "December 2020 - May 2021",
-        description: [
-          "Virtually taught Python, C++, and Javascript to students K-12",
-        ],
-      },
-    ],
-  },
-  {
-    name: "PeachPay, Inc",
+    name: "PeachPay, Inc.",
     logo: peachpay,
     location: "Ames, IA",
     url: "https://peachpay.app/",
@@ -208,24 +208,25 @@ export const ProjectList = [
       "Analyzed patterns in a dataset detailing demographic information in tandem with drug usage",
       "Lead the team primarily in data visualization",
     ],
-  },{
-    name: "Dungeon Delver",
-    logo: dungeonDelver,
-    url: "https://github.com/kyleicban/Dungeon-Delver",
-    description: [
-      "Created an adventure game ran on the console (.exe available for download on GitHub)",
-      "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
-    ],
   },
-  {
-    name: "Sport Store Application",
-    logo: sportsstore,
-    url: "https://github.com/kyleicban/Sport-Store-Application",
-    description: [
-      "Developed a data store mimicking a company store website and checkout process",
-      "Integrated Routing, REST API, Pagination, and Login Authentication using React",
-    ],
-  },
+  // {
+  //   name: "Dungeon Delver",
+  //   logo: dungeonDelver,
+  //   url: "https://github.com/kyleicban/Dungeon-Delver",
+  //   description: [
+  //     "Created an adventure game ran on the console (.exe available for download on GitHub)",
+  //     "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
+  //   ],
+  // },
+  // {
+  //   name: "Sport Store Application",
+  //   logo: sportsstore,
+  //   url: "https://github.com/kyleicban/Sport-Store-Application",
+  //   description: [
+  //     "Developed a data store mimicking a company store website and checkout process",
+  //     "Integrated Routing, REST API, Pagination, and Login Authentication using React",
+  //   ],
+  // },
   // {
   //   name: "GPA Calculator",
   //   logo: calculator,
