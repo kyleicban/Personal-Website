@@ -187,7 +187,7 @@ export default class Header extends Component {
             <TextWrapper>
               <TitleWrapper>KYLE ICBAN</TitleWrapper>
               <CaptionWrapper>
-                web developer, designer, cartoonist, rock climber
+                i study math but i like cool designs better
                 <br />
                 hope you like my website!
               </CaptionWrapper>

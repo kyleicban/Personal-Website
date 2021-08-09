@@ -55,30 +55,29 @@ export default class Home extends Component {
           <TitleWrapper>ABOUT ME</TitleWrapper>
           <OutlineWrapper>
             <BodyWrapper>
-              "My name is Kyle Icban and I'm a third year student studying
-              Applied Mathematics with a Computing Specialization at UCLA. I'm
-              a self-taught Frontend Web Developer with a background in 
-              design, product management and full stack development. In my free
-              time I enjoy hiking, rock climbing, and playing video games with
-              my friends.
+              "My name is Kyle Icban and I'm a senior at UCLA studying Applied 
+              Mathematics with a Computing Specialization. With that said, I chose 
+              Frontend Software Engineering as my career path of choice! In my 
+              free time I enjoy running, rock climbing, and playing video games w
+              ith my friends.
               <br />
               <br />
               I started my college career at UCLA as a Pure Mathematics major,
               but halfway through my second year I discovered something:
-              theoretical math is REALLY frickin hard. I still thoroughly enjoy 
-              the logic and grit needed for math, however I found myself 
-              lacking in the creativity department. It was then when I decided 
-              to shift career paths into the tech industry.
+              theoretical math is REALLY frickin hard. STEM still was where my 
+              interests were, however I found myself lacking in the creativity 
+              department. It was then when I decided to shift career paths into 
+              the tech industry.
               <br />
               <br />
               Summer 2020 marked a dead sprint into design and software development. 
-              I learned most of what I know about web development just through
-              YouTube and Codecademy in just that summer. It was a crazyyy grind. 
-              With 2021 just beginning I feel just as passionate about frontend
-              development as I had at the beginning, and I can only see it going 
-              up even more. My goal: to continue to build my skillset to one day 
-              work alongside some of the best developers in the industry. Stay 
-              tuned to receive further updates on where I'm at!"
+              I self-taught the fundamentals of web development myself just through
+              YouTube and Codecademy in that summer. It was a crazyyy grind. 
+              Even now, I feel just as passionate about frontend development as I 
+              had at the beginning, and I can only see it going up even more. My 
+              goal: to continue to build my skillset to one day work alongside 
+              some of the best developers in the industry. Stay tuned to receive 
+              further updates on where I'm at!"
               <br />
               <br />
               --Kyle Icban

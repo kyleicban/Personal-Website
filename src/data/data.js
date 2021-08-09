@@ -1,35 +1,27 @@
 import BullyingAndHorror from "../assets/artPortImages/dbBullyingAndHorror.jpg";
-import CaliforniaFires from "../assets/artPortImages/dbCartoonCaliforniaFires.jpg";
 import dino from "../assets/artPortImages/dino.jpg";
 import Dolphins from "../assets/artPortImages/dbCartoonDolphins.jpg";
 import FoxTheater from "../assets/artPortImages/dbCentFoxTheater.jpg";
 import JanssDome from "../assets/artPortImages/dbCentJanssDome.jpg";
-import jitterbug from "../assets/artPortImages/jitterbug.jpg";
-// import SponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
-// import tbCover from "../assets/artPortImages/tbCover.png";
-// import tbFigureEightOne from "../assets/artPortImages/tbFigureEightOne.png";
-// import tbFigureEightTwo from "../assets/artPortImages/tbFigureEightTwo.png";
-// import tbFigureSevenOne from "../assets/artPortImages/tbFigureSevenOne.png";
-import threeYears from "../assets/artPortImages/threeYears.jpg";
-import UnConnon from "../assets/artPortImages/dbUnConnon.jpg";
-import UnnecessaryFees from "../assets/artPortImages/dbCartoonUnnecessaryFees.jpg";
 import WhyDoesOilSplash from "../assets/artPortImages/dbWhyDoesOilSplash.jpg";
 import VirtualOrientation from "../assets/artPortImages/dbCartoonVirtualOrientation.jpg";
 
+import exploretechbox from "../assets/artPortImages/exploretechbox.png";
+import exploretechlaMemberSpotlight from "../assets/artPortImages/exploretechlaMemberSpotlight.png";
+import exploretechlaSponsorshipCover from "../assets/artPortImages/exploretechlaSponsorshipCover.png";
+import exploretechlaVolunteerRecruitment from "../assets/artPortImages/exploretechlaVolunteerRecruitment.png";
+import exploretechlaZoomBackgrounds from "../assets/artPortImages/exploretechlaZoomBackgrounds.png";
+
 import atlassian from "../assets/logos/atlassian.png";
-// import calculator from "../assets/logos/calculator.png";
-// import dailyBruin from "../assets/logos/dailyBruin.png";
+import dailyBruin from "../assets/logos/dailyBruin.png";
 import datafest from "../assets/logos/datafest.png";
-import dungeonDelver from "../assets/logos/dungeonDelver.png";
 import enfinite from "../assets/logos/enfinite.jpg";
-// import epitome from "../assets/logos/epitome.jpg";
-import juni from "../assets/logos/juni.png";
+import exploretechla from "../assets/logos/exploretechla.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
-// import quarantime from "../assets/logos/quarantime.png";
 import rubrik from "../assets/logos/rubrik.png";
 import spirals from "../assets/logos/spirals.png";
-// import sportsstore from "../assets/logos/sportsstore.jpg";
+import sportsstore from "../assets/logos/sportsstore.jpg";
 import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
@@ -43,7 +35,7 @@ export const WorkExpList = [
         title: "Software Engineering Intern",
         duration: "Fall 2021",
         description: [
-          "Will contribute in starting September 2021",
+          "Will contribute to the Oracle team starting September 2021",
         ],
       },
     ],
@@ -58,7 +50,7 @@ export const WorkExpList = [
         title: "Frontend Engineering Intern",
         duration: "June 2021 - Present",
         description: [
-          "Working with the Growth team for Trello, Confluence and Jira in an A/B experimental manner",
+          "Working with the Growth team for Trello and Confluence auto-provisioning and embedded pages",
         ],
       },
     ],
@@ -74,27 +66,29 @@ export const WorkExpList = [
         duration: "April 2020 - Present",
         description: [
           "Worked with Professor Achuta Kadambi and Professor Ayush Bhandari to design figures for their textbook",
-          "Communicated with the research group to confirm that the scientific information is accurate",
-          "Depicted complex scientific topics in each figure, such as Rayleigh scattering and birefringence",
+          "Used Figma to create 40 figures about computational imaging, computer vision and machine learning",
+          "Managed time in a fast-paced environment, delivering multiple figures on 2-3 days notice",
         ],
       },
     ],
   },
-  // {
-  //   name: "Juni Learning",
-  //   logo: juni,
-  //   location: "San Francisco, CA",
-  //   url: "https://junilearning.com/",
-  //   positions: [
-  //     {
-  //       title: "Computer Science Instructor",
-  //       duration: "December 2020 - May 2021",
-  //       description: [
-  //         "Virtually taught Python, C++, and Javascript to students K-12",
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    name: "exploretech.la",
+    logo: exploretechla,
+    location: "UCLA, Los Angeles, CA",
+    url: "https://www.exploretech.la/",
+    positions: [
+      {
+        title: "Graphic Designer",
+        duration: "May 2020 - April 2021",
+        description: [
+          "Helped host an event aimed to inspire high schoolers from underserved communities to “explore tech”",
+          "Collaborated as a designer on a team of 6 people to create material for publicity and marketing",
+          "Worked on various designs, from instagram posts to the exploretech.box"
+        ],
+      },
+    ],
+  },
   {
     name: "PeachPay, Inc.",
     logo: peachpay,
@@ -102,7 +96,7 @@ export const WorkExpList = [
     url: "https://peachpay.app/",
     positions: [
       {
-        title: "Frontend Engineering & Product Design Intern",
+        title: "Frontend Engineering & Design Intern",
         duration: "August 2020 - December 2020",
         description: [
           "Lead a project to redesign the company website to attract more users and businesses",
@@ -114,42 +108,25 @@ export const WorkExpList = [
       },
     ],
   },  
-  // {
-  //   name: "The Daily Bruin",
-  //   logo: dailyBruin,
-  //   location: "UCLA, Los Angeles, CA",
-  //   url: "https://dailybruin.com/author/kyle-icban",
-  //   positions: [
-  //     {
-  //       title: "Senior Editorial Cartoonist",
-  //       duration: "October 2018 - December 2020",
-  //       description: [
-  //         "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
-  //       ],
-  //     },
-  //     {
-  //       title: "Cartoons Beat Manager",
-  //       duration: "May 2019 - May 2020",
-  //       description: [
-  //         "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
-  //         "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
-  //       ],
-  //     },
-  //   ],
-  // },
   {
-    name: "Enfinite Technologies",
-    logo: enfinite,
-    location: "Los Angeles, CA",
-    url: "https://www.enfinitetech.com/",
+    name: "The Daily Bruin",
+    logo: dailyBruin,
+    location: "UCLA, Los Angeles, CA",
+    url: "https://dailybruin.com/author/kyle-icban",
     positions: [
       {
-        title: "Full Stack Engineering Intern",
-        duration: "August 2020 - October 2020",
+        title: "Senior Editorial Cartoonist",
+        duration: "October 2018 - December 2020",
         description: [
-          "Developed a dashboard to post data into Amazon DynamoDB, allowing clients to submit their own data",
-          "Built database infrastructure and wrote APIs for multiple projects ",
-          "Programmed a custom plugin to better handle large amounts of data on Grafana",
+          "Provided creative perspectives on newsworthy topics on human rights, social issues, and student life",
+        ],
+      },
+      {
+        title: "Cartoons Beat Manager",
+        duration: "May 2019 - May 2020",
+        description: [
+          "Lead a group of 10 cartoonist to create commentary about events around the UCLA campus",
+          "Guided illustrators and cartoonists to produce award winning content in both print and digital platforms",
         ],
       },
     ],
@@ -164,30 +141,12 @@ export const WorkExpList = [
         title: "Math Grader",
         duration: "October 2019 - July 2020",
         description: [
+          "Graded homework assignments for UCLA's mathematics department (31AB, 32AB, 33A)",
           "Exercised impressive time management skills by grading 210 assignments from students each week",
-          "Developed great relationships with world-renowned professors by maintaining close communication in the mathematics department",
-          "Demonstrated a strong background in lower-division mathematics courses to accurately evaluate students performance in the course",
         ],
       },
     ],
   },
-  // {
-  //   name: "Epitome Academy",
-  //   logo: epitome,
-  //   location: "Diamond Bar, CA",
-  //   url: "https://www.epitomeacademy.com/",
-  //   positions: [
-  //     {
-  //       title: "Math and English Teacher",
-  //       duration: "June 2019 - September 2019",
-  //       description: [
-  //         "Strengthened leadership skills by running a class of 12 elementary school students",
-  //         "Demonstrated effective communication and patience with special needs children",
-  //         "Improved children's letter grades in subjects by an average of 10%",
-  //       ],
-  //     },
-  //   ],
-  // },
 ];
 
 export const ProjectList = [
@@ -209,69 +168,52 @@ export const ProjectList = [
       "Lead the team primarily in data visualization",
     ],
   },
-  // {
-  //   name: "Dungeon Delver",
-  //   logo: dungeonDelver,
-  //   url: "https://github.com/kyleicban/Dungeon-Delver",
-  //   description: [
-  //     "Created an adventure game ran on the console (.exe available for download on GitHub)",
-  //     "Demonstrated knowledge of object oriented programming, recursion algorithms, and class inheritance",
-  //   ],
-  // },
-  // {
-  //   name: "Sport Store Application",
-  //   logo: sportsstore,
-  //   url: "https://github.com/kyleicban/Sport-Store-Application",
-  //   description: [
-  //     "Developed a data store mimicking a company store website and checkout process",
-  //     "Integrated Routing, REST API, Pagination, and Login Authentication using React",
-  //   ],
-  // },
-  // {
-  //   name: "GPA Calculator",
-  //   logo: calculator,
-  //   url: "https://github.com/kyleicban/GPA-Calculator",
-  //   description: [
-  //     "Developed a responsive calculator with warning and error indicators",
-  //     "Showcased fundamental understanding on navigating the DOM using vanilla Javascript",
-  //   ],
-  // },
-  // {
-  //   name: "Quarantime",
-  //   logo: quarantime,
-  //   url: "https://devpost.com/software/quarantime-j1d7lp",
-  //   description: [
-  //     "Designed a mobile app for the LA Hacks 2020 to educate people about the CoronaVirus and sustainability practices",
-  //     "Incorporated user reseach, wireframing and A/B Testing in the development process",
-  //   ],
-  // },
+  {
+    name: "Enfinite Technologies",
+    logo: enfinite,
+    url: "https://raw.githubusercontent.com/kyleicban/Personal-Website/master/src/assets/artPortImages/enfinite_dashboard_screenshot.png",
+    description: [
+      "Developed a dashboard to post data into DynamoDB, allowing clients to submit their own data",
+      "Included a login authentication feature to track and save the data a client submits",
+    ],
+  },
+  {
+    name: "Sport Store Application",
+    logo: sportsstore,
+    url: "https://github.com/kyleicban/Sport-Store-Application",
+    description: [
+      "Developed a data store mimicking a company store website and checkout process",
+      "Integrated Routing, REST API, Pagination, and Login Authentication using React",
+    ],
+  },
 ];
 
 export const ArtPortImages = [
-  // {
-  //   art: SponsorshipCover,
-  //   caption:
-  //     "Cover design for exploretech.la for the Sponsorship Packet to be shown to companies.",
-  // },
-  // {
-  //   art: tbCover,
-  //   caption:
-  //     'Conceptual design for a textbook about how humanity\'s next "Einstein" will most likely be a robot.',
-  // },
-  // {
-  //   art: tbFigureEightOne,
-  //   caption:
-  //     "Multi-part figure describing (a) what a wavelength is, (b) the electromagnetic spectrum, (c) how cameras can selectively filter light, and (d) what spectral imaging is.",
-  // },
-  // {
-  //   art: tbFigureEightTwo,
-  //   caption: "A figure answering the question: Why is the sky blue?",
-  // },
-  // {
-  //   art: tbFigureSevenOne,
-  //   caption:
-  //     "A figure attempting to explain how vikings used birefringence to navigate around.",
-  // },
+  {
+    art: exploretechlaMemberSpotlight,
+    caption:
+      "Featured member spotlight on exploretech.la's Instagram.",
+  },
+  {
+    art: exploretechbox,
+    caption:
+      "Our wonderful executive director posing with the #exploretech.box.",
+  },
+  {
+    art: exploretechlaSponsorshipCover,
+    caption:
+      "Cover design for exploretech.la's Sponsorship Packet to be shown to companies.",
+  },
+  {
+    art: exploretechlaZoomBackgrounds,
+    caption:
+      "Custom Zoom backgrounds for exploretech.la members on the day of the virtual event.",
+  },
+  {
+    art: exploretechlaVolunteerRecruitment,
+    caption:
+      "A volunteer recruitment ad posted on exploretech.la's Instagram.",
+  },
   {
     art: FoxTheater,
     caption:
@@ -281,11 +223,6 @@ export const ArtPortImages = [
     art: JanssDome,
     caption:
       "An illustration of Janss Dome in Westwood Village for UCLA's Centennial Edition.",
-  },
-  {
-    art: UnConnon,
-    caption:
-      "Posted on the Daily Bruin’s Instagram story for a sports article describing athletes’ reluctance to commit to UCLA.",
   },
   {
     art: BullyingAndHorror,
@@ -306,26 +243,6 @@ export const ArtPortImages = [
     art: VirtualOrientation,
     caption:
       "An editorial cartoon commenting on the difficulty a virtual orientation for incoming UCLA freshman could pose.",
-  },
-  {
-    art: CaliforniaFires,
-    caption:
-      "An editorial cartoon commenting on classroom leniency amidst the California fires in 2020.",
-  },
-  {
-    art: UnnecessaryFees,
-    caption:
-      "An editorial cartoon criticizing how students still have to pay for on campus ammenities despite hosting remote instruction.",
-  },
-  {
-    art: jitterbug,
-    caption:
-      "An album cover for a snazzy jazz song by musician, Zack Berger, from UCLA.",
-  },
-  {
-    art: threeYears,
-    caption:
-      "A digital image I drew for my girlfriend for our 3 year anniversary.",
   },
   {
     art: dino,

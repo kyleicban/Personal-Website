@@ -53,7 +53,7 @@ export default class ArtPort extends Component {
             },
           }}
         >
-          <TitleWrapper>ART PORTFOLIO</TitleWrapper>
+          <TitleWrapper>DESIGN AND ART PORTFOLIO</TitleWrapper>
           <ArtPortWrapper>
             {ArtPortImages.map((illo) => {
               return <ArtMaker art={illo.art} caption={illo.caption} />;
