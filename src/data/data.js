@@ -153,7 +153,7 @@ export const ProjectList = [
   {
     name: "Generative Art",
     logo: spirals,
-    url: "https://github.com/kyleicban/generative-art",
+    url: "https://kyleicban.xyz/generative_art",
     description: [
       "Created an ongoing project that uses code to autonomously generate artwork",
       "Used the p5 library in Javascript and turtle library in Python",
