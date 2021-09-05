@@ -33,9 +33,9 @@ export const WorkExpList = [
     positions: [
       {
         title: "Software Engineering Intern",
-        duration: "Fall 2021",
+        duration: "September 2021",
         description: [
-          "Will contribute to the Oracle team starting September 2021",
+          "Contributing to the Oracle team",
         ],
       },
     ],
@@ -48,9 +48,13 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineering Intern",
-        duration: "June 2021 - Present",
+        duration: "June 2021 - September 2021",
         description: [
-          "Working with the Growth team for Trello and Confluence auto-provisioning and embedded pages",
+          "Investigated how Confluence pages could be embedded in Trello, documenting any information gathered",
+          "Developed a minimal proof-of-concept of embedded Confluence pages inside Trello",
+          "Shipped production code and attached analytics to render Smartlinks in Trello’s highlights section",
+          "Shadowed product managers and prepared frequent demos to keep all stakeholders aligned",
+          "Independently found a better alternative to a significant refactor that the team thought would be required",
         ],
       },
     ],
