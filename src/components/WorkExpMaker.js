@@ -69,6 +69,7 @@ const TitleWrapper = styled.p`
 const LocWrapper = styled.p`
   float: right;
   font-size: 12px;
+  font-style: italic;
   font-weight: lighter;
   margin-left: 5px;
   margin-top: 10px;
@@ -76,16 +77,9 @@ const LocWrapper = styled.p`
 `;
 
 const DurWrapper = styled.p`
-  float: right;
+  float: left;
   font-size: 10px;
-  font-weight: lighter;
-  margin-left: 5px;
-  text-align: right;
-`;
-
-const DescWrapper = styled.li`
-  font-size: 12px;
-  margin-left: 0;
+  font-style: italic;
 `;
 
 export default class WorkExpMaker extends Component {
@@ -103,13 +97,8 @@ export default class WorkExpMaker extends Component {
               <div className="mb-2 p-0">
                 <h6 className="text-left">
                   {position.title}
-                  <DurWrapper>{position.duration}</DurWrapper>
                 </h6>
-                <ul className="m-0 text-left">
-                  {position.description.map((point) => {
-                    return <DescWrapper>{point}</DescWrapper>;
-                  })}
-                </ul>
+                <DurWrapper>{position.duration}</DurWrapper>
               </div>
             );
           })}

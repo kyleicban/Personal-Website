@@ -12,7 +12,6 @@ import { CircleDesign } from "../shared/CircleDesign";
 
 import mainpic from "../assets/me1.jpg";
 import hoverpic from "../assets/me2.jpg";
-import resume from "../assets/kyleIcbanResume.pdf";
 
 const HeaderWrapper = styled.div`
   background: rgb(28, 56, 94);
@@ -169,14 +168,6 @@ export default class Header extends Component {
                   <BtnTextWrapper>{cat.replace(/_/g, " ")}</BtnTextWrapper>
                 </Link>
               ))}
-            <a
-              target="_blank"
-              href={resume}
-              className="btn btn-light m-1"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
           </HashRouter>
         </NavWrapper>
         <HeaderWrapper>
@@ -187,7 +178,7 @@ export default class Header extends Component {
             <TextWrapper>
               <TitleWrapper>KYLE ICBAN</TitleWrapper>
               <CaptionWrapper>
-                i study math but i like cool designs better
+                i studied math but i like cool designs better
                 <br />
                 hope you like my website!
               </CaptionWrapper>
