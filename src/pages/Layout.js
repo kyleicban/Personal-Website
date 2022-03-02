@@ -20,7 +20,7 @@ export default class Layout extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/work_experience" component={Experience} />
-            <Route path="/design_and_art_portfolio" component={ArtPort} />
+            <Route path="/design_+_art_portfolio" component={ArtPort} />
             <Route path="/resume" component={Resume} />
           </Switch>
         </AnimatePresence>
