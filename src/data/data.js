@@ -13,6 +13,7 @@ import exploretechlaVolunteerRecruitment from "../assets/artPortImages/explorete
 import exploretechlaZoomBackgrounds from "../assets/artPortImages/exploretechlaZoomBackgrounds.png";
 
 import atlassian from "../assets/logos/atlassian.png";
+import exploretech from "../assets/logos/exploretech.svg"
 import hubspot from "../assets/logos/hubspot.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
@@ -35,7 +36,7 @@ export const WorkExpList = [
   {
     name: "PeachPay, Inc.",
     logo: peachpay,
-    location: "Ames, IA",
+    location: "Austin, TX",
     url: "https://www.peachpay.app/",
     positions: [
       {
@@ -69,18 +70,6 @@ export const WorkExpList = [
     ],
   },
   {
-    name: "MIT Press",
-    logo: mitPress,
-    location: "Cambridge, MA",
-    url: "https://mitpress.mit.edu/",
-    positions: [
-      {
-        title: "Graphic Designer",
-        duration: "April 2020 - Present",
-      },
-    ],
-  },
-  {
     name: "PeachPay, Inc.",
     logo: peachpay,
     location: "Ames, IA",
@@ -105,6 +94,33 @@ export const WorkExpList = [
     ],
   },
 ];
+
+export const VolunteerExpList = [
+  {
+    name: "MIT Press",
+    logo: mitPress,
+    location: "Cambridge, MA",
+    url: "https://mitpress.mit.edu/",
+    positions: [
+      {
+        title: "Graphic Designer",
+        duration: "April 2020 - Present",
+      },
+    ],
+  },
+  {
+    name: "exploretech.la",
+    logo: exploretech,
+    location: "UCLA, Los Angeles, CA",
+    url: "https://www.exploretech.la/",
+    positions: [
+      {
+        title: "Webmaster + Graphic Designer",
+        duration: "May 2020 - Present",
+      },
+    ],
+  },
+]
 
 export const ArtPortImages = [
   {

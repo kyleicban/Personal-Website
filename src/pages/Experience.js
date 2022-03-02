@@ -3,8 +3,9 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 import { PageWrapper, TitleWrapper } from "../components/PageWrapper";
-import WorkExpMaker from "../components/WorkExpMaker";
-import { WorkExpList } from "../data/data";
+import ExperienceMaker from "../components/ExperienceMaker";
+import { WorkExpList, VolunteerExpList } from "../data/data";
+import { LineBreak } from "../shared/LineBreak";
 
 const WorkExpWrapper = styled.div`
   color: rgb(15, 8, 43);
@@ -20,7 +21,7 @@ const WorkExpWrapper = styled.div`
   }
 `;
 
-export default class WorkExp extends Component {
+export default class Experience extends Component {
   componentDidMount() {
     window.scrollTo({
       top: 280,
@@ -51,7 +52,7 @@ export default class WorkExp extends Component {
           <WorkExpWrapper>
             {WorkExpList.map((workExp) => {
               return (
-                <WorkExpMaker
+                <ExperienceMaker
                   name={workExp.name}
                   logo={workExp.logo}
                   location={workExp.location}
@@ -61,6 +62,22 @@ export default class WorkExp extends Component {
               );
             })}
           </WorkExpWrapper>
+          <LineBreak />
+          <TitleWrapper>VOLUNTEERING</TitleWrapper>
+          <WorkExpWrapper>
+            {VolunteerExpList.map((volunteerExp) => {
+              return (
+                <ExperienceMaker
+                  name={volunteerExp.name}
+                  logo={volunteerExp.logo}
+                  location={volunteerExp.location}
+                  url={volunteerExp.url}
+                  positions={volunteerExp.positions}
+                />
+              );
+            })}
+          </WorkExpWrapper>
+
         </motion.div>
       </PageWrapper>
     );

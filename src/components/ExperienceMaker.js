@@ -82,7 +82,7 @@ const DurWrapper = styled.p`
   font-style: italic;
 `;
 
-export default class WorkExpMaker extends Component {
+export default class ExperienceMaker extends Component {
   render() {
     return (
       <WorkWrapper target="_blank" href={this.props.url}>

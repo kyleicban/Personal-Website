@@ -6,10 +6,10 @@ import ArtPort from "./ArtPortfolio";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Home from "./Home";
-import WorkExp from "./WorkExperience";
+import Experience from "./Experience.js";
 import Resume from "./Resume";
 
-const categories = ["Work_Experience", "Design_and_Art_Portfolio", "Resume"];
+const categories = ["Work_Experience", "Design_+_Art_Portfolio", "Resume"];
 
 export default class Layout extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class Layout extends Component {
         <AnimatePresence>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/work_experience" component={WorkExp} />
+            <Route path="/work_experience" component={Experience} />
             <Route path="/design_and_art_portfolio" component={ArtPort} />
             <Route path="/resume" component={Resume} />
           </Switch>
