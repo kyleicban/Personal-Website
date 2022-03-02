@@ -9,7 +9,7 @@ import Home from "./Home";
 import Experience from "./Experience.js";
 import Resume from "./Resume";
 
-const categories = ["Work_Experience", "Design_+_Art_Portfolio", "Resume"];
+const categories = ["Experience", "Design_+_Art_Portfolio", "Resume"];
 
 export default class Layout extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class Layout extends Component {
         <AnimatePresence>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/work_experience" component={Experience} />
+            <Route path="/experience" component={Experience} />
             <Route path="/design_+_art_portfolio" component={ArtPort} />
             <Route path="/resume" component={Resume} />
           </Switch>
