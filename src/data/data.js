@@ -76,7 +76,7 @@ export const WorkExpList = [
     url: "https://peachpay.app/",
     positions: [
       {
-        title: "Frontend Engineering & Design Intern",
+        title: "Frontend Engineering + Design Intern",
         duration: "August 2020 - December 2020",
       },
     ],
