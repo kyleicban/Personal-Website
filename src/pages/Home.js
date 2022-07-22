@@ -30,7 +30,7 @@ export default class Home extends Component {
     window.scrollTo({
       top: 0,
       left: 100,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }
 
@@ -55,24 +55,27 @@ export default class Home extends Component {
           <TitleWrapper>ABOUT ME</TitleWrapper>
           <OutlineWrapper>
             <BodyWrapper>
-              "My name is Kyle Icban and I graduated from UCLA in December 2021 where I studied Applied 
-              Mathematics with a Computing Specialization. With that said, h e c k&nbsp; m a t h! I chose to pursue Frontend 
-              Development and Design as my career paths because its cooler {'>'}:)! In my 
-              free time I enjoy rock climbing, running, and thrifting.
+              "My name is Kyle Icban and I graduated from UCLA in December 2021
+              where I studied Applied Mathematics with a Computing
+              Specialization. With that said, h e c k&nbsp; m a t h! I chose to
+              pursue Frontend Development and Design as my career paths because
+              its cooler {">"}:)! In my free time I enjoy rock climbing,
+              running, and thrifting.
               <br />
               <br />
               I started my college career at UCLA as a Pure Mathematics major,
               but halfway through my second year I discovered something:
-              theoretical math is REALLY frickin hard. STEM still was where my 
-              interests were, however I found myself lacking in the creativity 
-              department. It was then when I decided to shift career paths into 
+              theoretical math is REALLY frickin hard. STEM still was where my
+              interests were, however I found myself lacking in the creativity
+              department. It was then when I decided to shift career paths into
               the tech industry.
               <br />
               <br />
-              Nowadays, I mostly work as a software engineer and pursue art and design
-              on the side. G r A p H i C&nbsp; &nbsp; D e S i G n&nbsp; &nbsp; i S&nbsp; &nbsp; m Y&nbsp; &nbsp; P a S S i O n&nbsp; &nbsp;  
-              but actually though. Stay tuned to receive 
-              further updates on where I'm at!"
+              Nowadays, I mostly work as a software engineer and pursue art and
+              design on the side. G r A p H i C&nbsp; &nbsp; D e S i G n&nbsp;
+              &nbsp; i S&nbsp; &nbsp; m Y&nbsp; &nbsp; P a S S i O n&nbsp;
+              &nbsp; but actually though. Stay tuned to receive further updates
+              on where I'm at!"
               <br />
               <br />
               --Kyle Icban

@@ -13,7 +13,7 @@ import exploretechlaVolunteerRecruitment from "../assets/artPortImages/explorete
 import exploretechlaZoomBackgrounds from "../assets/artPortImages/exploretechlaZoomBackgrounds.png";
 
 import atlassian from "../assets/logos/atlassian.png";
-import exploretech from "../assets/logos/exploretech.svg"
+import exploretech from "../assets/logos/exploretech.svg";
 import hubspot from "../assets/logos/hubspot.png";
 import mitPress from "../assets/logos/mitPress.png";
 import peachpay from "../assets/logos/peachpay.png";
@@ -22,6 +22,18 @@ import uclaMath from "../assets/logos/uclaMath.png";
 
 export const WorkExpList = [
   {
+    name: "Atlassian",
+    logo: atlassian,
+    location: "New York City, New York",
+    url: "https://www.atlassian.com/",
+    positions: [
+      {
+        title: "Frontend Engineer",
+        duration: "July 2022 - Present",
+      },
+    ],
+  },
+  {
     name: "HubSpot",
     logo: hubspot,
     location: "Cambridge, MA",
@@ -29,7 +41,7 @@ export const WorkExpList = [
     positions: [
       {
         title: "Frontend Engineering Co-op",
-        duration: "January 2022 - Present",
+        duration: "January 2022 - May 2022",
       },
     ],
   },
@@ -80,7 +92,7 @@ export const WorkExpList = [
         duration: "August 2020 - December 2020",
       },
     ],
-  },  
+  },
   {
     name: "UCLA Mathematics",
     logo: uclaMath,
@@ -115,18 +127,17 @@ export const VolunteerExpList = [
     url: "https://www.exploretech.la/",
     positions: [
       {
-        title: "Webmaster + Graphic Designer",
-        duration: "May 2020 - Present",
+        title: "Tech Lead + Graphic Designer",
+        duration: "May 2020 - April 2022",
       },
     ],
   },
-]
+];
 
 export const ArtPortImages = [
   {
     art: exploretechlaMemberSpotlight,
-    caption:
-      "Featured member spotlight on exploretech.la's Instagram.",
+    caption: "Featured member spotlight on exploretech.la's Instagram.",
   },
   {
     art: exploretechbox,
@@ -145,8 +156,7 @@ export const ArtPortImages = [
   },
   {
     art: exploretechlaVolunteerRecruitment,
-    caption:
-      "A volunteer recruitment ad posted on exploretech.la's Instagram.",
+    caption: "A volunteer recruitment ad posted on exploretech.la's Instagram.",
   },
   {
     art: FoxTheater,
